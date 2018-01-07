@@ -1,0 +1,8 @@
+# Retooled robots.txt 20110510-cws
+User-Agent: *
+Disallow: css/
+Disallow: js/
+Disallow: error/
+Disallow: images/
+Disallow: includes/
+Disallow: assets/
