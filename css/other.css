@@ -13,7 +13,6 @@ html,body,header,.viewport {
 	background-color: #500000;
 	color: #FFFFFF;
 	font-family: 'Open Sans';
-	font-size: 2vh;
 	
 }
 
@@ -103,7 +102,6 @@ background-color:transparent
 	margin-top: 20px;
 	color: #fff;
 	font-family: 'Open Sans';
-	font-size: 5vh;
 	font-weight: bold;
 }
 
@@ -111,7 +109,6 @@ background-color:transparent
 	margin-top: 20px;
 	color: #fff;
 	font-family: 'Open Sans';
-	font-size: 2.5vh;
 	padding-left: 16.666667%;
 	padding-right: 16.666667%;
 	
@@ -121,7 +118,6 @@ background-color:transparent
 	
 	text-align: left;
 	font-family: 'Open Sans';
-	font-size: 2.5vh;
 	padding-left: 16.666667%;
 	padding-right: 16.666667%;
 }
@@ -131,7 +127,6 @@ background-color:transparent
 	margin-top: 20px;
 	color: #fff;
 	font-family: 'Open Sans';
-	font-size: 4vh;
 	font-weight: bold;
 }
 
@@ -139,7 +134,6 @@ background-color:transparent
 	
 	text-align: center;
 	font-family: 'Open Sans';
-	font-size: 2.5vh;
 	padding-left: 16.666667%;
 	padding-right: 16.666667%;
 }
@@ -147,7 +141,6 @@ background-color:transparent
 	
 	text-align: center;
 	font-family: 'Open Sans';
-	font-size: 2.5vh;
 	
 }
 
@@ -156,7 +149,6 @@ background-color:transparent
 	
 	text-align: left;
 	font-family: 'Open Sans';
-	font-size: 2.5vh;
 	padding-left: 16.666667%;
 	padding-right: 16.666667%;
 	margin-left: 40px;
@@ -181,7 +173,6 @@ background-color:transparent
 	border-color: #FFFFFF;
 	background-color: #5B6236;
 	color: #FFFFFF;
-	font-size: 2.5vh;
 	font-weight: bold;
 }
 
@@ -204,5 +195,4 @@ background-color:transparent
 
 .btn-default,  .btn-default:hover {
 	font-family: 'Open Sans';
-	font-size: 2.5vh;
 }
