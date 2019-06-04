@@ -5,10 +5,91 @@
     <link>http://dwarkanath.xyz/blog/tags/</link>
     <description>Recent content in Tags on Blog | Dwarkanath Prabhu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Aug 2018 17:47:15 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 06 Feb 2019 01:12:12 -0600</lastBuildDate>
     
 	<atom:link href="http://dwarkanath.xyz/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cloud</title>
+      <link>http://dwarkanath.xyz/blog/tags/cloud/</link>
+      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>http://dwarkanath.xyz/blog/tags/deep-learning/</link>
+      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>http://dwarkanath.xyz/blog/tags/flask/</link>
+      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://dwarkanath.xyz/blog/tags/python/</link>
+      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://dwarkanath.xyz/blog/tags/r/</link>
+      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>http://dwarkanath.xyz/blog/tags/web-development/</link>
+      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>http://dwarkanath.xyz/blog/tags/computer-vision/</link>
+      <pubDate>Fri, 18 Jan 2019 13:39:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skin Cancer</title>
+      <link>http://dwarkanath.xyz/blog/tags/skin-cancer/</link>
+      <pubDate>Fri, 18 Jan 2019 13:39:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/skin-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensorflow</title>
+      <link>http://dwarkanath.xyz/blog/tags/tensorflow/</link>
+      <pubDate>Fri, 18 Jan 2019 13:39:12 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/tensorflow/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>College Station</title>

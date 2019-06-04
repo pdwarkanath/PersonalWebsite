@@ -4,13 +4,94 @@
   
   <url>
     <loc>http://dwarkanath.xyz/blog/authors/</loc>
-    <lastmod>2018-08-15T17:47:15-05:00</lastmod>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dwarkanath.xyz/blog/</loc>
-    <lastmod>2018-08-15T17:47:15-05:00</lastmod>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/cloud/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/deep-learning/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/authors/dwarkanath-prabhu/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/flask/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/posts/portfolio/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/posts/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/python/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/r/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/web-development/</loc>
+    <lastmod>2019-02-06T01:12:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/computer-vision/</loc>
+    <lastmod>2019-01-18T13:39:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/skin-cancer/</loc>
+    <lastmod>2019-01-18T13:39:12-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/posts/melanoma-detection/</loc>
+    <lastmod>2019-01-18T13:39:12-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/tags/tensorflow/</loc>
+    <lastmod>2019-01-18T13:39:12-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18,11 +99,6 @@
     <loc>http://dwarkanath.xyz/blog/tags/college-station/</loc>
     <lastmod>2018-08-15T17:47:15-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://dwarkanath.xyz/blog/authors/dwarkanath-prabhu/</loc>
-    <lastmod>2018-08-15T17:47:15-05:00</lastmod>
   </url>
   
   <url>
@@ -37,21 +113,14 @@
   </url>
   
   <url>
-    <loc>http://dwarkanath.xyz/blog/posts/</loc>
-    <lastmod>2018-08-15T17:47:15-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://dwarkanath.xyz/blog/tags/</loc>
-    <lastmod>2018-08-15T17:47:15-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://dwarkanath.xyz/blog/tags/texas-am-university/</loc>
     <lastmod>2018-08-15T17:47:15-05:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dwarkanath.xyz/blog/posts/eatingoutguidebcs/</loc>
+    <lastmod>2018-06-10T17:07:37-05:00</lastmod>
   </url>
   
   <url>
