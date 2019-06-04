@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Blog | Dwarkanath Prabhu</title>
+    <link>http://dwarkanath.xyz/blog/tags/</link>
+    <description>Recent content in Tags on Blog | Dwarkanath Prabhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Aug 2018 17:47:15 -0500</lastBuildDate>
+    
+	<atom:link href="http://dwarkanath.xyz/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>College Station</title>
+      <link>http://dwarkanath.xyz/blog/tags/college-station/</link>
+      <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/college-station/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food</title>
+      <link>http://dwarkanath.xyz/blog/tags/food/</link>
+      <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Texas A&amp;M University</title>
+      <link>http://dwarkanath.xyz/blog/tags/texas-am-university/</link>
+      <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/texas-am-university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Bend</title>
+      <link>http://dwarkanath.xyz/blog/tags/big-bend/</link>
+      <pubDate>Mon, 01 Jan 2018 19:18:04 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/big-bend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Texas</title>
+      <link>http://dwarkanath.xyz/blog/tags/texas/</link>
+      <pubDate>Mon, 01 Jan 2018 19:18:04 -0600</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/texas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atheism</title>
+      <link>http://dwarkanath.xyz/blog/tags/atheism/</link>
+      <pubDate>Sat, 04 Nov 2017 22:12:16 -0500</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/atheism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Religion</title>
+      <link>http://dwarkanath.xyz/blog/tags/religion/</link>
+      <pubDate>Sat, 04 Nov 2017 22:12:16 -0500</pubDate>
+      
+      <guid>http://dwarkanath.xyz/blog/tags/religion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
