@@ -196,3 +196,15 @@ background-color:transparent
 .btn-default,  .btn-default:hover {
 	font-family: 'Open Sans';
 }
+
+@media(max-width: 1580px) {
+	body, h1, h2, h3, p, ul, li {
+		font-size: 2rem;
+	}
+}
+
+@media(max-width: 980px) {
+	body, h1, h2, h3, p, ul, li {
+		font-size: 4rem;
+	}
+}
