@@ -6,20 +6,137 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://people.tamu.edu/~pdwarkanath/</loc>
-  <lastmod>2017-06-21T23:57:25+00:00</lastmod>
+  <loc>https://dwarkanath.xyz/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://people.tamu.edu/~pdwarkanath/freefood.html</loc>
-  <lastmod>2017-08-15T05:32:25+00:00</lastmod>
+  <loc>https://dwarkanath.xyz/blog/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://people.tamu.edu/~pdwarkanath/CPLEXConcertTutorial.pdf</loc>
-  <lastmod>2017-06-12T20:19:37+00:00</lastmod>
+  <loc>https://dwarkanath.xyz/CPLEXConcertTutorial.pdf</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://people.tamu.edu/~pdwarkanath/DwarkanathPrabhuResume.pdf</loc>
-  <lastmod>2017-06-18T19:48:59+00:00</lastmod>
+  <loc>https://dwarkanath.xyz/blog/posts/portfolio/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/deep-learning/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/web-development/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/python/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/flask/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/r/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/cloud/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/posts/melanoma-detection/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/computer-vision/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/skin-cancer/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/tensorflow/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/posts/howdyweek/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/food/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/texas-am-university/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/college-station/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/posts/eatingoutguidebcs/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/posts/year-in-pics-2017/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/big-bend/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/texas/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/posts/atheism/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/atheism/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/tags/religion/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dwarkanath.xyz/blog/authors/dwarkanath-prabhu/</loc>
+  <lastmod>2019-06-07T21:58:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
