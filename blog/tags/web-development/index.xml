@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Development on Blog | Dwarkanath Prabhu</title>
-    <link>https://dwarkanath.xyz/blog/tags/web-development/</link>
+    <link>https://dwarkanath.com/blog/tags/web-development/</link>
     <description>Recent content in Web Development on Blog | Dwarkanath Prabhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 06 Feb 2019 01:12:12 -0600</lastBuildDate>
     
-	<atom:link href="https://dwarkanath.xyz/blog/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dwarkanath.com/blog/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Portfolio</title>
-      <link>https://dwarkanath.xyz/blog/posts/portfolio/</link>
+      <link>https://dwarkanath.com/blog/posts/portfolio/</link>
       <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
       
-      <guid>https://dwarkanath.xyz/blog/posts/portfolio/</guid>
+      <guid>https://dwarkanath.com/blog/posts/portfolio/</guid>
       <description>Hi! I&amp;rsquo;m Dwarkanath Prabhu. I work on machine learning and web development. Here are some of my projects sorted by topic.
 Index  Computer Vision Natural Language Processing Neural Networks Classical Machine Learning Web Development Certifications  Computer Vision Skin Cancer Classification  Description: Classified images of skin lesions into different types of skin cancer using a ResNet50 architecture pretrained on ImageNet with a precision of 87.5% Language: Python (Jupyter Notebook) Libraries: TensorFlow, numpy, matplotlib Code: GitHub Repo  Handwritten Digit Recognition  Description: Identified the number (0-9) from images of handwritten digits as provided by the MNIST dataset with 99.</description>
     </item>
