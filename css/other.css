@@ -191,3 +191,8 @@ background-color:transparent
 	font-family: 'Open Sans';
 }
 
+@media(max-width: 780px) {
+	body, h1, h2, h3, p, ul, li {
+		font-size: 4rem;
+	}
+} 
