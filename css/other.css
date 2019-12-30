@@ -3,12 +3,6 @@ html,body,header,.viewport {
 	
 }
 
-.content {
-	min-height: 100%;
-}
-
-
-
 .navbar-aggie{
 	background-color: #500000;
 	color: #FFFFFF;
@@ -19,6 +13,7 @@ html,body,header,.viewport {
 .navbar-default{
 border:0;
 }
+
 .navbar-default .navbar-brand{
 color:#fff
 }
@@ -26,7 +21,6 @@ color:#fff
 .nav-link{
 	background-color: #500000;
 	color: #FFFFFF;
-	
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -197,14 +191,3 @@ background-color:transparent
 	font-family: 'Open Sans';
 }
 
-@media(max-width: 1580px) {
-	body, h1, h2, h3, p, ul, li {
-		font-size: 2rem;
-	}
-}
-
-@media(max-width: 980px) {
-	body, h1, h2, h3, p, ul, li {
-		font-size: 4rem;
-	}
-}
