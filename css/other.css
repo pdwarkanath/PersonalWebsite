@@ -1,56 +1,7 @@
-html,body,header,.viewport {
-	height: 100%;
-	
-}
-
-.navbar-aggie{
+.navbar-aggie {
 	background-color: #500000;
-	color: #FFFFFF;
-	font-family: 'Open Sans';
-	
 }
-
-.navbar-default{
-border:0;
-}
-
-.navbar-default .navbar-brand{
-color:#fff
-}
-
-.nav-link{
-	background-color: #500000;
-	color: #FFFFFF;
-}
-
-.navbar-default .navbar-nav>li>a{
-color:#fff
-}
-
-.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
-	background-color: #450000;
-	color: #FFFFFF;
-	
-}
-
-.nav > li > a:hover, .nav > li > a:focus {
-	background-color: #400000;
-	color: #FFFFFF;
-}
-
-
-
-.nav-link {
-	margin-right: 15px;
-	
-}
-
-.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{
-color:#5e5e5e;
-background-color:transparent
-}
-
-#viewport1 {
+.landing-page {
 	background-image: url("../assets/bg1.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -60,133 +11,30 @@ background-color:transparent
 	background-color:#464646;
 }
 
-#viewport2 {
-	background-image: url("../assets/freefoodoncampus2.jpg");
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	background-color:#464646;
-}
-
-.viewport, .content {
-	display: table;
-	text-align: center;
-	width: 100%;
-}
-
-.header-content, .other-content, .contact-content {
-	display: table-cell;
-	vertical-align: middle;
-	
-}
-.header-content {
-	margin-top: 15%;
-	margin-bottom: 10%;
-}
-.other-content, .contact-content {
-	margin-top: 5%;
-	margin-bottom: 5%;
-
-}
-	
-.header-content > h1 {
-	text-align: center;
-	margin-top: 20px;
-	color: #fff;
-	font-family: 'Open Sans';
-	font-weight: bold;
-}
-
-.header-content > p {
-	margin-top: 20px;
-	color: #fff;
-	font-family: 'Open Sans';
-	padding-left: 16.666667%;
-	padding-right: 16.666667%;
-	
-}
-
-.other-content > p {
-	
-	text-align: left;
-	font-family: 'Open Sans';
-	padding-left: 16.666667%;
-	padding-right: 16.666667%;
-}
-
-.other-content > h2 {
-	text-align: center;
-	margin-top: 20px;
-	color: #fff;
-	font-family: 'Open Sans';
-	font-weight: bold;
-}
-
-.contact-content > p {
-	
-	text-align: center;
-	font-family: 'Open Sans';
-	padding-left: 16.666667%;
-	padding-right: 16.666667%;
-}
-#email {
-	
-	text-align: center;
-	font-family: 'Open Sans';
-	
-}
-
-
-.other-content > ul {
-	
-	text-align: left;
-	font-family: 'Open Sans';
-	padding-left: 16.666667%;
-	padding-right: 16.666667%;
-	margin-left: 40px;
-}
-
 .logo-size {
-	width: 50px;
 	height:50px;
 }
-
-.white-background {
-	background-color:#FFFFFF;
+.front-content {
+	position: relative;
+	top: 20%;
 }
 
-#about, #contact {
+.even-viewport {
 	background-color:#D6D3C4;
 }
 
-
-.btn-aggie {
-	align-content: center;
-	border-color: #FFFFFF;
-	background-color: #5B6236;
-	color: #FFFFFF;
-	font-weight: bold;
+.odd-viewport {
+	background-color: #FFFFFF;
 }
 
-.btn-aggie:hover {
-	border-color: #FFFFFF;
-	background-color: #707373;
-	color: #500000;
-	font-weight: bold;
-	text-decoration: underline;
+.content {
+	max-width: 600px;
 }
 
-.btn-margin {
-	margin-top:80%;
+.offset-navbar-top{
+	height: 56px;
 }
 
-.img-responsive {
-	max-width: 300px;
-	margin: 0 auto;
-}
-
-.btn-default,  .btn-default:hover {
-	font-family: 'Open Sans';
+html {
+  scroll-behavior: smooth;
 }
