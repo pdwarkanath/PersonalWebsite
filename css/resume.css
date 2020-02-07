@@ -1,0 +1,44 @@
+@page {
+  size: 8.5in 11in;
+}
+
+@media print {
+  html {
+  	font-size: 12px;
+  }
+}
+
+.resume {
+	margin: auto;
+	padding: 0.5in;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: 1.3in 1fr;
+	grid-template-areas: 
+		"name summary"
+		"skills details";
+}
+
+.name {
+    grid-area: name;
+}
+
+.summary {
+    grid-area: summary;
+}
+
+.details {
+    grid-area: details;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.summary p {
+	font-size: 1.3em;
+}
+
+.contact li {
+	text-indent: 10px;
+}
