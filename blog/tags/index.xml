@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog | Dwarkanath Prabhu</title>
@@ -110,6 +110,15 @@
     </item>
     
     <item>
+      <title>Texas</title>
+      <link>https://dwarkanath.com/blog/tags/texas/</link>
+      <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
+      
+      <guid>https://dwarkanath.com/blog/tags/texas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Texas A&amp;M University</title>
       <link>https://dwarkanath.com/blog/tags/texas-am-university/</link>
       <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
@@ -124,15 +133,6 @@
       <pubDate>Mon, 01 Jan 2018 19:18:04 -0600</pubDate>
       
       <guid>https://dwarkanath.com/blog/tags/big-bend/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Texas</title>
-      <link>https://dwarkanath.com/blog/tags/texas/</link>
-      <pubDate>Mon, 01 Jan 2018 19:18:04 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/texas/</guid>
       <description></description>
     </item>
     
