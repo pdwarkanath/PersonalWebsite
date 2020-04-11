@@ -7,7 +7,7 @@
   	font-size: 12px;
   }
 }
-
+@media (min-width: 1200px) {
 .resume {
 	margin: auto;
 	padding: 0.5in;
@@ -41,4 +41,5 @@
 
 .contact li {
 	text-indent: 10px;
+}
 }
