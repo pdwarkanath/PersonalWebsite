@@ -225,16 +225,16 @@
 </body>
 <script>
 $(document).ready(function(){
-  if ($(window).width() <= 768){  
+  if ($(window).width() <= 1200){  
     $('.collapse').removeClass('show');
   }
 });
 
 $(window).resize(function(){
-  if ($(window).width() >= 768){  
+  if ($(window).width() >= 1200){  
     $('.collapse').addClass('show');
   }
-  if ($(window).width() <= 768){  
+  if ($(window).width() <= 1200){  
     $('.collapse').removeClass('show');
   }
 });
