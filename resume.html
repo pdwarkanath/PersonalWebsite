@@ -221,21 +221,33 @@
 </div>
 </body>
 <script>
+
+
+
 $(document).ready(function(){
   if ($(window).width() <= 720){  
     $('.collapse').removeClass('show');
   }
 });
+var width = $(window).width();
+var height = $(window).height();
 
 $(window).resize(function(){
-  if ($(window).width() >= 720){  
+	
+if($(window).width() != width || $(window).height() != height){
+  if ($(window).width() >= 720){
+  	width = $(window).width();
+  	height = $(window).height();
     $('.collapse').addClass('show');
-    console.log("resize: greater than 768");
+    console.log("resize: greater than 720");
   }
-  if ($(window).width() <= 720){  
+  if ($(window).width() <= 720){
+  	width = $(window).width();  
+  	height = $(window).height();
     $('.collapse').removeClass('show');
-    console.log("resize: less than 768");
+    console.log("resize: less than 720");
   }
+}
 });
 </script>
 </html>
