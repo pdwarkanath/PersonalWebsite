@@ -233,17 +233,14 @@ var width = $(window).width();
 var height = $(window).height();
 
 $(window).resize(function(){
-	
 if($(window).width() != width || $(window).height() != height){
+  width = $(window).width();
+  height = $(window).height();
   if ($(window).width() >= 720){
-  	width = $(window).width();
-  	height = $(window).height();
     $('.collapse').addClass('show');
     console.log("resize: greater than 720");
   }
   if ($(window).width() <= 720){
-  	width = $(window).width();  
-  	height = $(window).height();
     $('.collapse').removeClass('show');
     console.log("resize: less than 720");
   }
