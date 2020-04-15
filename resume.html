@@ -36,12 +36,12 @@
 		<p>Full-stack web developer with startup experience, a proven knowledge of application development, database management, and search engine optimization.</p>
 	</div>
 	
-	<div class="d-xl-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills">
+	<div class="d-md-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills">
 		<h3 class="text-white">Contact & Skills</h3>
 	</div>
-	<div class="collapse show skills px-1 p-1 bg-light d-xl-flex flex-column" id="skills">
-		<div class="contact mb-xl-5">
-		<h3 class="border-top border-secondary"> Contact:</h3>
+	<div class="collapse show skills px-1 p-1 bg-light d-md-flex flex-column border-top border-secondary" id="skills">
+		<div class="mt-0 mb-xl-5">
+		<h3> Contact:</h3>
 		<ul class="list-unstyled">
 			<li><i class="fa fa-globe"></i> <a href="https://dwarkanath.com">dwarkanath.com</a></li>	
 			<li><i class="fa fa-github"></i> <a href="https://github.com/pdwarkanath">pdwarkanath</a></li>
@@ -82,11 +82,11 @@
 	</div>
 	
 	<article class="details px-xl-1">
-		<div class="d-xl-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#workex" aria-expanded="false" aria-controls="workex">
+		<div class="d-md-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#workex" aria-expanded="false" aria-controls="workex">
 			<h3 class="text-white">Work Experience</h3>
 		</div>
 		<section class="collapse show border-top border-secondary" id="workex">
-			<h3 class="d-xl-inline d-none">Work Experience</h3>
+			<h3 class="d-md-inline d-none">Work Experience</h3>
 			<div class="d-flex flex-row justify-content-between">
 				<p class="h5 my-0">Software Developer, <span class="text-secondary">Conference Management Services (CMS) Inc.</span></p>
 				<p class="h5 my-0">Oct 2019 - Present</p>
@@ -148,11 +148,11 @@
 				<li>Drafted business plan to acquire at least 15% market share in each segment</li>
 			</ul>
 		</section>
-		<div class="d-xl-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#projects" aria-expanded="false" aria-controls="projects">
+		<div class="d-md-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#projects" aria-expanded="false" aria-controls="projects">
 			<h3 class="text-white">Projects</h3>
 		</div>
 		<section class="collapse show border-top border-secondary" id="projects">
-			<h3 class="d-xl-inline d-none">Work Experience</h3>
+			<h3 class="d-md-inline d-none">Projects</h3>
 			<div class="d-flex flex-row justify-content-between">
 				<p class="h5 my-0">Week In Memes <span class="text-secondary">(Static Website)</span></p>
 				<p class="h5 my-0">Feb 2019 – Present</p>
@@ -199,11 +199,11 @@
 				<li>Applied quality control analysis with a threshold of 5% to remove out-of-control data till only in-control data was left</li>
 			</ul>
 		</section>
-		<div class="d-xl-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#education" aria-expanded="false" aria-controls="education">
+		<div class="d-md-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#education" aria-expanded="false" aria-controls="education">
 			<h3 class="text-white">Education</h3>
 		</div>
 		<section class="collapse show border-top border-secondary" id="education">	
-			<h3 class="d-xl-inline d-none">Education</h3>
+			<h3 class="d-md-inline d-none">Education</h3>
 			<div class="d-flex flex-row justify-content-between">
 				<p class="h5 my-0">M. Eng., Industrial Engineering, <span class="text-secondary">Texas A&M University</span></p>
 				<p class="h5 my-0">Dec 2018</p>
@@ -222,16 +222,16 @@
 </body>
 <script>
 $(document).ready(function(){
-  if ($(window).width() <= 1200){  
+  if ($(window).width() <= 720){  
     $('.collapse').removeClass('show');
   }
 });
 
 $(window).resize(function(){
-  if ($(window).width() >= 1200){  
+  if ($(window).width() >= 720){  
     $('.collapse').addClass('show');
   }
-  if ($(window).width() <= 1200){  
+  if ($(window).width() <= 720){  
     $('.collapse').removeClass('show');
   }
 });
