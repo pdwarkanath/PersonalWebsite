@@ -230,9 +230,11 @@ $(document).ready(function(){
 $(window).resize(function(){
   if ($(window).width() >= 720){  
     $('.collapse').addClass('show');
+    console.log("resize: greater than 768");
   }
   if ($(window).width() <= 720){  
     $('.collapse').removeClass('show');
+    console.log("resize: less than 768");
   }
 });
 </script>
