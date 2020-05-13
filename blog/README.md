@@ -1,6 +1,6 @@
 # HugoBlog
 
-Personal blog (static site) using Hugo. http://dwarkanath.xyz/blog/
+Personal blog (static site) using Hugo. https://dwarkanath.com/blog/
 
 [Hugo](https://gohugo.io/) is a framework for building static sites. Written in [go](https://golang.org/), Hugo supports writing content in Markdown. To build your own Hugo site:
 
