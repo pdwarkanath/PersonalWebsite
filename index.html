@@ -44,8 +44,8 @@
   <meta property="og:description" content="Howdy! I’m Dwarkanath Prabhu. I am a self-taught web developer. I am based out of College Station, TX where I completed my masters degree in Industrial and Systems Engineering (ISEN) at Texas A&ampM University." />
   <meta property="og:image" content="assets/dwarkanath-prabhu.jpg" />
 </head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-aggie fixed-top" id="myScrollspy">
+<body data-spy="scroll" data-target="#navbar" data-offset="20">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-aggie fixed-top" id="navbar">
     <a class = "navbar-brand" href="">Dwarkanath Prabhu</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarExpanded" aria-controls="navbarExpanded" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -54,14 +54,14 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="blog" target="_blank">Blog </a>
         <a class="nav-item nav-link bg-primary rounded" href="resume" target="_blank">Resume </a>
-        <a class="nav-item nav-link" href="#page-top">Home </a>
+        <a class="nav-item nav-link" href="#welcome-section">Home </a>
         <a class="nav-item nav-link" href="#about">About </a>
         <a class="nav-item nav-link" href="#work">Work </a>
         <a class="nav-item nav-link" href="#contact">Contact </a>
       </div>
     </div>
   </nav>
-  <section class ="landing-page vh-100" id="page-top">
+  <section class ="landing-page vh-100" id="welcome-section">
     <div class="front-content d-flex flex-column justify-content-between">
       <div class="text-center text-white py-1">
         <h1>Howdy!</h1>
@@ -77,7 +77,7 @@
         <a class = "mx-3" href ="https://www.linkedin.com/in/dwarkanathprabhu/" target="_blank">
           <img src = "assets/In-2C-75px-R.png" class = "logo-size mx-2" alt = "LinkedIn">
         </a>
-        <a class = "mx-3" href ="https://github.com/pdwarkanath/" target="_blank">
+        <a class = "mx-3" href ="https://github.com/pdwarkanath/" target="_blank" id="profile-link">
           <img src = "assets/GitHub-Mark-64px.png" class = "logo-size mx-2 bg-light" alt = "GitHub">
         </a>
       </div>
@@ -116,8 +116,9 @@
       <p>Currently I am working as a Software Engineer at <a href="https://cmsworldwide.com/NewSite/">Conference Management Services, Inc.</a></p>
     
       <h3>Side Projects</h3>
+      <section id="projects">
       <div class="card-deck">
-        <div class="card shadow">
+        <div class="card shadow project-tile">
           <img class="card-img-top" src="assets/product-animal.jpg" alt="Product Animal">
           <div class="card-body">
             <h5 class="card-title">Product Animal</h5>
@@ -165,6 +166,7 @@
         </div>
       </div>
     </div>
+      </section>
   </section>
   <section class="even-viewport" id="contact">
     <div class="offset-navbar-top">
