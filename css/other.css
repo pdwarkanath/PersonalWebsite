@@ -10,6 +10,16 @@
 	-o-background-size: cover;
 	background-color:#464646;
 }
+.comedy-page {
+	background-image: url("../assets/comedybg.jpg");
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-color:#464646;
+}
+
 
 .logo-size {
 	height:50px;
