@@ -6,3 +6,6 @@ https://www.dwarkanath.xyz/* https://dwarkanath.com/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://dwarkanath.netlify.com/* https://dwarkanath.com/:splat 301!
+
+# External
+/recruitersurvey https://docs.google.com/forms/d/e/1FAIpQLScHib-xqmeqMujwry1uvxqP5oFlNICJdzuKW0YZKzfur3kGjw/viewform
