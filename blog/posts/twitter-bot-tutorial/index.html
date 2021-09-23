@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="generator" content="Hugo 0.67.0" />
+
+  
+  <meta name="description" content="My random thoughts in blog form...">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://dwarkanath.com/blog/apple-touch-icon.png">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="https://dwarkanath.com/blog/favicon-32x32.png">
+
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="https://dwarkanath.com/blog/favicon-16x16.png">
+
+  
+  <link rel="manifest" href="https://dwarkanath.com/blog/site.webmanifest">
+
+  
+  <link rel="mask-icon" href="https://dwarkanath.com/blog/safari-pinned-tab.svg" color="">
+
+  <meta name="msapplication-TileColor" content="">
+
+  <meta name="theme-color" content="">
+
+  
+  
+  <title>How I Built a Twitter Bot using Python and AWS Lambda | Blog | Dwarkanath Prabhu</title>
+  
+
+  
+<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="../../css/mathjax-style.css" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<style>
+body {
+  min-width: 300px;
+}
+
+.custom-navbar {
+  margin-bottom: 1em;
+  height: 60px;
+}
+
+.custom-navbar a {
+  display: inline-block; 
+  padding: 18px 0;
+  margin-right: 1em; 
+  font-weight: bold; 
+}
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  text-decoration: none; 
+}
+
+@media print {
+  .custom-navbar {
+    display: none;
+  }
+}
+
+article {
+  padding-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  background-color: #fff;
+}
+
+
+
+body {
+  color: #212529;
+}
+
+
+
+a {
+  color: #007bff;
+}
+
+
+
+a:hover,
+a:focus {
+  color: #0056b3;
+}
+
+
+
+.custom-navbar {
+  background-color: #212529;
+}
+
+
+
+.custom-navbar a {
+  color: rgba(255,255,255,.75);
+}
+
+
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  color: rgba(255,255,255,1);
+}
+
+
+
+.container {
+  max-width: 800px;
+}
+
+
+
+
+
+
+td {
+  border: 1px solid #ccc;
+  padding: 0.2rem;
+}
+
+th {
+  border: 1px solid #ccc;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+table {
+  margin: 1em;
+}
+ #author-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ }
+ @media (max-width: 600px) {
+ #author-card {
+  flex-wrap: wrap;
+  align-content: flex-start;
+ }
+}
+ #author-photo {
+  max-width:200px;
+  margin: 20px;
+  }
+.share-card {
+    margin-bottom: 40px;
+}
+.share-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-bottom: none;
+    word-spacing: 10px;
+}
+.share-card a:hover {
+  text-decoration: none;
+}
+.share-card a:first-child {
+    margin-right: 20px;
+}
+.share-card a i {
+    color: #fff;
+}
+.share-card a.twitter {
+    background-color: #38A1F3;
+    color: #fff;
+}
+.share-card a.facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+</style>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+</script>
+
+
+  <meta property="og:title" content="How I Built a Twitter Bot using Python and AWS Lambda" />
+<meta property="og:description" content="Last year I built a (very silly) Twitter bot to track the name changes of Nahim (@nah_im_abdulla). I hosted it locally for the best part of the year but decided to move it to the cloud for reliability. If my computer stops working, the bot goes down but that is less likely with AWS.
+Create a Twitter account and app First, I signed up for Twitter using the username NahimName for the bot." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dwarkanath.com/blog/posts/twitter-bot-tutorial/" />
+<meta property="og:image" content="https://dwarkanath.com/blog/img/0101AudobonGorilla.jpg"/>
+<meta property="article:published_time" content="2021-03-17T01:12:12-06:00" />
+<meta property="article:modified_time" content="2021-03-17T01:12:12-06:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dwarkanath.com/blog/img/0101AudobonGorilla.jpg"/>
+
+<meta name="twitter:title" content="How I Built a Twitter Bot using Python and AWS Lambda"/>
+<meta name="twitter:description" content="Last year I built a (very silly) Twitter bot to track the name changes of Nahim (@nah_im_abdulla). I hosted it locally for the best part of the year but decided to move it to the cloud for reliability. If my computer stops working, the bot goes down but that is less likely with AWS.
+Create a Twitter account and app First, I signed up for Twitter using the username NahimName for the bot."/>
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-101288487-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+<body>
+  <nav class="custom-navbar">
+  <div class="container">
+    
+    <a href="https://dwarkanath.com/">Home</a>
+    
+  </div>
+</nav>
+  
+  <div class="container">
+    <article>
+      <h1>How I Built a Twitter Bot using Python and AWS Lambda</h1>
+<p>
+  <small class="text-secondary">
+  
+  
+  March 17, 2021
+  </small>
+  
+
+<small><code><a href="https://dwarkanath.com/blog/tags/web-development">Web Development</a></code></small>
+
+
+<small><code><a href="https://dwarkanath.com/blog/tags/python">Python</a></code></small>
+
+
+<small><code><a href="https://dwarkanath.com/blog/tags/aws">AWS</a></code></small>
+
+
+<small><code><a href="https://dwarkanath.com/blog/tags/lambda">Lambda</a></code></small>
+
+
+<small><code><a href="https://dwarkanath.com/blog/tags/cloud">Cloud</a></code></small>
+
+
+<small><code><a href="https://dwarkanath.com/blog/tags/serverless">Serverless</a></code></small>
+
+</p>
+<p>Last year I built a (very silly) Twitter bot to track the name changes of Nahim (<a href="https://twitter.com/nah_im_abdulla">@nah_im_abdulla</a>). I hosted it locally for the best part of the year but decided to move it to the cloud for reliability. If my computer stops working, the bot goes down but that is less likely with AWS.</p>
+<h2 id="create-a-twitter-account-and-app">Create a Twitter account and app</h2>
+<p>First, I signed up for Twitter using the username <code>NahimName</code> for the bot. Sign Up here: <a href="https://twitter.com/signup">https://twitter.com/signup</a></p>
+<p>Then I applied for a developer account access. I had to enter a few details about how I plan to use the Twitter API.</p>
+<p><em>Follow the instructions here: <a href="https://dev.to/sumedhpatkar/beginners-guide-how-to-apply-for-a-twitter-developer-account-1kh7">https://dev.to/sumedhpatkar/beginners-guide-how-to-apply-for-a-twitter-developer-account-1kh7</a> It takes a few hours to get approved.</em></p>
+<p>Next I needed to create an app so that I could programmatically access the Twitter account. For that go to the <a href="https://developer.twitter.com/en/portal/dashboard">Developer Dashboard</a> and follow these steps</p>
+<h3 id="name-your-project">Name your project</h3>
+<p><img src="../../img/001-name-project.png" alt=""></p>
+<h3 id="what-is-this-project-about">What is this project about</h3>
+<p><img src="../../img/002-best-describes.png" alt=""></p>
+<h3 id="write-a-description">Write a description</h3>
+<p><img src="../../img/003-project-description.png" alt=""></p>
+<h3 id="add-a-new-app">Add a new app</h3>
+<p><img src="../../img/004-add-app.png" alt=""></p>
+<h3 id="name-the-app">Name the app</h3>
+<p><img src="../../img/005-name-app.png" alt=""></p>
+<h3 id="generate-keys">Generate Keys</h3>
+<p>From the Keys and Tokens page, I generated <code>API key &amp; secret</code> and <code>Access token &amp; secret</code>.</p>
+<p><img src="../../img/006-keys-and-tokens.png" alt=""></p>
+<p>Then copied these details as soon as they were generated into a file <code>twittercreds.py</code> which looked like this:</p>
+<pre><code>api_key = &quot;QfNCeooJRvcJ4NdMAf3i5eWsq&quot;
+api_secret = &quot;BFNkLJpDjO3CLs1xwO6JKF84YJS7vKo1zOwnqUjvkKLAJfsT1B&quot;
+access_token = &quot;1226083992312647681-eMyxZgnn840usQSdKztiwKupMRM8Xr&quot;
+access_secret = &quot;IRWwsNUWoW3FAu4LketeCsc6dJ7u3OCJw1vdw2G1YgktE&quot;
+</code></pre><p>Note: Don&rsquo;t try these exact values to access my bot. I&rsquo;ve regenerated these keys so they won&rsquo;t work :P</p>
+<p>These variables will be used to authenticate (i.e. login to) the Twitter account I created earlier (<a href="https://twitter.com/NahimName">@NahimName</a>)</p>
+<h2 id="python-script">Python script</h2>
+<p><em>Never used Python? I recommend installing Anaconda. Instructions for Windows: <a href="https://docs.anaconda.com/anaconda/install/windows/">https://docs.anaconda.com/anaconda/install/windows/</a></em></p>
+<p>I used a Python library called <code>tweepy</code> to access the Twitter API.</p>
+<pre><code>pip install -t . tweepy
+</code></pre><p>This installs tweepy in the directory where I run the command. This is useful later when I deploy the script to AWS.</p>
+<p>The simple idea behind the script is this:</p>
+<ol>
+<li>Login to Twitter</li>
+<li>Check the last tweeted name by the bot</li>
+<li>Check for Nahim&rsquo;s current name</li>
+<li>If the current name is different, tweet the new name</li>
+</ol>
+<p>Here&rsquo;s the short script in action.</p>
+<h3 id="login-to-twitter">Login to twitter</h3>
+<pre><code>import tweepy
+from twittercreds import *
+def login_twitter():
+    auth = tweepy.OAuthHandler(api_key, api_secret)
+    auth.set_access_token(access_token, access_secret) 
+    api = tweepy.API(auth)
+    return api
+</code></pre><h3 id="check-the-last-tweeted-name-by-the-bot">Check the last tweeted name by the bot</h3>
+<pre><code>def get_old_name(api):
+    tweets = api.user_timeline(screen_name='NahimName', count=1, include_rts = False, tweet_mode = 'extended')
+    old_name = tweets[0].full_text.encode('utf-8')
+    return old_name
+</code></pre><p><em>Sidenote: Python uses ASCII coding for strings but it doesn&rsquo;t include all the characters used on twitter like emojis or characters in languages other than English. Hence, the tweet received is encoded into bytes using <code>utf-8</code> which has a larger list of characters.</em></p>
+<h3 id="check-for-nahims-current-name">Check for Nahim&rsquo;s current name</h3>
+<pre><code>def get_current_name(api):
+    user_id = 2467643810 # Nahim's twitter user ID. Unique for every Twitter user
+    user = api.get_user(user_id)
+    current_name = user.name.encode('utf-8')
+    return current_name
+</code></pre><h3 id="if-the-current-name-is-different-tweet-the-new-name">If the current name is different, tweet the new name</h3>
+<pre><code>def lambda_handler(event, context):
+    api = login_twitter()
+    old_name = get_old_name(api)
+    current_name = get_current_name(api)
+    if current_name != old_name:
+        api.update_status(current_name.decode())
+</code></pre><p>Since the original tweet was encoded, it needs to be decoded from bytes into a string before tweeting. The function is named so because that is the default function AWS looks for in Lambda. This can be changed in configuration later but the variables <code>event</code> and <code>context</code> need to be passed to the function. All of the above code is in one file named <code>lambda_handler.py</code> for the same reason. i.e. it is the file that AWS looks for by default.</p>
+<p>This works only if there already is a tweet to check the previous name. This is easily done by adding the first tweet manually. 😛</p>
+<h2 id="deploying-to-aws">Deploying to AWS</h2>
+<p><em>Create AWS account: <a href="https://www.tutorialspoint.com/amazon_web_services/amazon_web_services_account.htm">https://www.tutorialspoint.com/amazon_web_services/amazon_web_services_account.htm</a></em></p>
+<p>I used AWS lambda to run the script in the cloud instead of on my computer. To do this, I zipped the contents of the folder where the script was written. This includes all the files such as <code>twittercreds.py</code>, <code>lambda_function.py</code> and all the files that were downloaded when I installed <code>tweepy</code>. So when this is uploaded to AWS, all the necessary dependencies are available in one place.</p>
+<h3 id="create-a-lambda-function-in-aws">Create a Lambda function in AWS</h3>
+<p><img src="../../img/007-AWS-Lambda-Function-Create.png" alt=""></p>
+<h3 id="upload-the-contents-of-the-zipped-folder-to-the-lambda-function">Upload the contents of the zipped folder to the Lambda Function.</h3>
+<p><img src="../../img/008-AWS-Lambda-Function-Upload.png" alt=""></p>
+<h3 id="create-rule-in-eventbridge">Create Rule In EventBridge</h3>
+<p><img src="../../img/009-AWS-EventBridge.png" alt=""></p>
+<h3 id="define-rule-and-target">Define Rule and Target</h3>
+<p><img src="../../img/010-AWS-EventBridge-Create.png" alt="">
+<img src="../../img/011-AWS-EventBridge-Target.png" alt=""></p>
+<p>Here, I used EventBridge to <strong>trigger</strong> the function at regular intervals (15 minutes)</p>
+<p>That&rsquo;s it. ~!</p>
+<p>You can see the code here: <a href="https://github.com/pdwarkanath/nahim-name/blob/master/lambda_function.py">https://github.com/pdwarkanath/nahim-name/blob/master/lambda_function.py</a></p>
+
+
+
+
+
+<div id = "author-card">
+	<div>
+		<img id = "author-photo" src="../../img/0101AudobonGorilla.jpg" alt="Dwarkanath Prabhu"/></div>
+<div><b>Author: </b>
+	
+	<a href = "../../authors/dwarkanath-prabhu">Dwarkanath Prabhu</a><br>
+	<p>Hi, I&rsquo;m Dwarkanath Prabhu! I&rsquo;m a web developer, currently working at <a href="https://cmsworldwide.com/">CMS, Inc.</a></p>
+
+<p><a href="https://twitter.com/dk_prabhu">Follow me on Twitter</a>
+ 	</p>
+</div>
+</div>
+
+
+
+
+
+<div class="share-card">
+    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fdwarkanath.com%2fblog%2fposts%2ftwitter-bot-tutorial%2f - How%20I%20Built%20a%20Twitter%20Bot%20using%20Python%20and%20AWS%20Lambda by @dk_prabhu"><i class="fa fa-twitter"></i> Tweet</a>
+
+    <a class="facebook" href="#" onclick="
+        window.open(
+          'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+          'facebook-share-dialog',
+          'width=626,height=436');
+        return false;"><i class="fa fa-facebook"></i> Share
+    </a>
+</div>
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'pdwarkanath';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </article>
+  </div>
+
+  
+  
+  
+
+  
+
+  
+</body>
+
+</html>
