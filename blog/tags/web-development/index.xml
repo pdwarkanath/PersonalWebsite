@@ -1,21 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Development on Blog | Dwarkanath Prabhu</title>
-    <link>http://people.tamu.edu/~pdwarkanath/blog/tags/web-development/</link>
+    <link>https://dwarkanath.com/blog/tags/web-development/</link>
     <description>Recent content in Web Development on Blog | Dwarkanath Prabhu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Feb 2019 01:12:12 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 17 Mar 2021 01:12:12 -0600</lastBuildDate>
     
-	<atom:link href="http://people.tamu.edu/~pdwarkanath/blog/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dwarkanath.com/blog/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>How I Built a Twitter Bot using Python and AWS Lambda</title>
+      <link>https://dwarkanath.com/blog/posts/twitter-bot-tutorial/</link>
+      <pubDate>Wed, 17 Mar 2021 01:12:12 -0600</pubDate>
+      
+      <guid>https://dwarkanath.com/blog/posts/twitter-bot-tutorial/</guid>
+      <description>Last year I built a (very silly) Twitter bot to track the name changes of Nahim (@nah_im_abdulla). I hosted it locally for the best part of the year but decided to move it to the cloud for reliability. If my computer stops working, the bot goes down but that is less likely with AWS.
+Create a Twitter account and app First, I signed up for Twitter using the username NahimName for the bot.</description>
+    </item>
+    
+    <item>
       <title>Portfolio</title>
-      <link>http://people.tamu.edu/~pdwarkanath/blog/posts/portfolio/</link>
+      <link>https://dwarkanath.com/blog/posts/portfolio/</link>
       <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
       
-      <guid>http://people.tamu.edu/~pdwarkanath/blog/posts/portfolio/</guid>
+      <guid>https://dwarkanath.com/blog/posts/portfolio/</guid>
       <description>Hi! I&amp;rsquo;m Dwarkanath Prabhu. I work on machine learning and web development. Here are some of my projects sorted by topic.
 Index  Computer Vision Natural Language Processing Neural Networks Classical Machine Learning Web Development Certifications  Computer Vision Skin Cancer Classification  Description: Classified images of skin lesions into different types of skin cancer using a ResNet50 architecture pretrained on ImageNet with a precision of 87.5% Language: Python (Jupyter Notebook) Libraries: TensorFlow, numpy, matplotlib Code: GitHub Repo  Handwritten Digit Recognition  Description: Identified the number (0-9) from images of handwritten digits as provided by the MNIST dataset with 99.</description>
     </item>
