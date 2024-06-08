@@ -2,184 +2,144 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog | Dwarkanath Prabhu</title>
-    <link>https://dwarkanath.com/blog/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Blog | Dwarkanath Prabhu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Wed, 17 Mar 2021 01:12:12 -0600</lastBuildDate>
-    
-	<atom:link href="https://dwarkanath.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS</title>
-      <link>https://dwarkanath.com/blog/tags/aws/</link>
-      <pubDate>Wed, 17 Mar 2021 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/aws/</guid>
+      <link>/tags/aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cloud</title>
-      <link>https://dwarkanath.com/blog/tags/cloud/</link>
-      <pubDate>Wed, 17 Mar 2021 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/cloud/</guid>
+      <link>/tags/cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/cloud/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lambda</title>
-      <link>https://dwarkanath.com/blog/tags/lambda/</link>
-      <pubDate>Wed, 17 Mar 2021 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/lambda/</guid>
+      <link>/tags/lambda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/lambda/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Python</title>
-      <link>https://dwarkanath.com/blog/tags/python/</link>
-      <pubDate>Wed, 17 Mar 2021 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/python/</guid>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Serverless</title>
-      <link>https://dwarkanath.com/blog/tags/serverless/</link>
-      <pubDate>Wed, 17 Mar 2021 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/serverless/</guid>
+      <link>/tags/serverless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/serverless/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Web Development</title>
-      <link>https://dwarkanath.com/blog/tags/web-development/</link>
-      <pubDate>Wed, 17 Mar 2021 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/web-development/</guid>
+      <link>/tags/web-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/web-development/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Deep Learning</title>
-      <link>https://dwarkanath.com/blog/tags/deep-learning/</link>
-      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/deep-learning/</guid>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/deep-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Flask</title>
-      <link>https://dwarkanath.com/blog/tags/flask/</link>
-      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/flask/</guid>
+      <link>/tags/flask/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/flask/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>R</title>
-      <link>https://dwarkanath.com/blog/tags/r/</link>
-      <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/r/</guid>
+      <link>/tags/r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Computer Vision</title>
-      <link>https://dwarkanath.com/blog/tags/computer-vision/</link>
-      <pubDate>Fri, 18 Jan 2019 13:39:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/computer-vision/</guid>
+      <link>/tags/computer-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/computer-vision/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Skin Cancer</title>
-      <link>https://dwarkanath.com/blog/tags/skin-cancer/</link>
-      <pubDate>Fri, 18 Jan 2019 13:39:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/skin-cancer/</guid>
+      <link>/tags/skin-cancer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/skin-cancer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tensorflow</title>
-      <link>https://dwarkanath.com/blog/tags/tensorflow/</link>
-      <pubDate>Fri, 18 Jan 2019 13:39:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/tensorflow/</guid>
+      <link>/tags/tensorflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/tensorflow/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>College Station</title>
-      <link>https://dwarkanath.com/blog/tags/college-station/</link>
-      <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/college-station/</guid>
+      <link>/tags/college-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/college-station/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Food</title>
-      <link>https://dwarkanath.com/blog/tags/food/</link>
-      <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/food/</guid>
+      <link>/tags/food/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/food/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Texas</title>
-      <link>https://dwarkanath.com/blog/tags/texas/</link>
-      <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/texas/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Texas A&amp;M University</title>
-      <link>https://dwarkanath.com/blog/tags/texas-am-university/</link>
-      <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/texas-am-university/</guid>
+      <link>/tags/texas-am-university/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/texas-am-university/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Big Bend</title>
-      <link>https://dwarkanath.com/blog/tags/big-bend/</link>
-      <pubDate>Mon, 01 Jan 2018 19:18:04 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/big-bend/</guid>
+      <link>/tags/big-bend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/big-bend/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Texas</title>
+      <link>/tags/texas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/texas/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Atheism</title>
-      <link>https://dwarkanath.com/blog/tags/atheism/</link>
-      <pubDate>Sat, 04 Nov 2017 22:12:16 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/atheism/</guid>
+      <link>/tags/atheism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/atheism/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Religion</title>
-      <link>https://dwarkanath.com/blog/tags/religion/</link>
-      <pubDate>Sat, 04 Nov 2017 22:12:16 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/tags/religion/</guid>
+      <link>/tags/religion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/religion/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

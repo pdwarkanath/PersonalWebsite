@@ -2,29 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Texas on Blog | Dwarkanath Prabhu</title>
-    <link>https://dwarkanath.com/blog/tags/texas/</link>
+    <link>/tags/texas/</link>
     <description>Recent content in Texas on Blog | Dwarkanath Prabhu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Aug 2018 17:47:15 -0500</lastBuildDate>
-    
-	<atom:link href="https://dwarkanath.com/blog/tags/texas/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 2018 19:18:04 -0600</lastBuildDate>
+    <atom:link href="/tags/texas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Year in Pics 2017</title>
-      <link>https://dwarkanath.com/blog/posts/year-in-pics-2017/</link>
+      <link>/posts/year-in-pics-2017/</link>
       <pubDate>Mon, 01 Jan 2018 19:18:04 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/year-in-pics-2017/</guid>
-      <description>I could write about the year but it would just be tl;dr. So here&amp;rsquo;s a few of my favorite pics from 2017.
-January Audobon Zoo, New Orleans. What&amp;rsquo;s up, gorilla!
-WWE Royal Rumble Live! in San Antonio.
-March Spring Break in parks in the Bryan-College Station area.
-Hensel Park
-Stephen C. Beachy Central Park
-Bee Creek Park
-April For the Sikh festival of Baisakhi, the Texas A&amp;amp;M Sikh Association organized the &amp;ldquo;Tie a turban&amp;rdquo; event.</description>
+      <guid>/posts/year-in-pics-2017/</guid>
+      <description>I could write about the year but it would just be tl;dr. So here&amp;rsquo;s a few of my favorite pics from 2017.&#xA;January Audobon Zoo, New Orleans. What&amp;rsquo;s up, gorilla!&#xA;WWE Royal Rumble Live! in San Antonio.&#xA;March Spring Break in parks in the Bryan-College Station area.&#xA;Hensel Park&#xA;Stephen C. Beachy Central Park&#xA;Bee Creek Park&#xA;April For the Sikh festival of Baisakhi, the Texas A&amp;amp;M Sikh Association organized the &amp;ldquo;Tie a turban&amp;rdquo; event.</description>
     </item>
-    
   </channel>
 </rss>

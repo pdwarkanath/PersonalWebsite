@@ -1,174 +1,106 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://dwarkanath.com/blog/authors/</loc>
+    <loc>/authors/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/aws/</loc>
+  </url><url>
+    <loc>/tags/aws/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/</loc>
+  </url><url>
+    <loc>/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/cloud/</loc>
+  </url><url>
+    <loc>/tags/cloud/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/authors/dwarkanath-prabhu/</loc>
+  </url><url>
+    <loc>/authors/dwarkanath-prabhu/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/twitter-bot-tutorial/</loc>
+  </url><url>
+    <loc>/posts/twitter-bot-tutorial/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/lambda/</loc>
+  </url><url>
+    <loc>/tags/lambda/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/</loc>
+  </url><url>
+    <loc>/posts/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/python/</loc>
+  </url><url>
+    <loc>/tags/python/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/serverless/</loc>
+  </url><url>
+    <loc>/tags/serverless/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/</loc>
+  </url><url>
+    <loc>/tags/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/web-development/</loc>
+  </url><url>
+    <loc>/tags/web-development/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/end-happiness/</loc>
+  </url><url>
+    <loc>/posts/end-happiness/</loc>
     <lastmod>2020-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/whats-in-a-name/</loc>
+  </url><url>
+    <loc>/posts/whats-in-a-name/</loc>
     <lastmod>2019-12-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/deep-learning/</loc>
+  </url><url>
+    <loc>/tags/deep-learning/</loc>
     <lastmod>2019-02-06T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/flask/</loc>
+  </url><url>
+    <loc>/tags/flask/</loc>
     <lastmod>2019-02-06T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/portfolio/</loc>
+  </url><url>
+    <loc>/posts/portfolio/</loc>
     <lastmod>2019-02-06T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/r/</loc>
+  </url><url>
+    <loc>/tags/r/</loc>
     <lastmod>2019-02-06T01:12:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/computer-vision/</loc>
+  </url><url>
+    <loc>/tags/computer-vision/</loc>
     <lastmod>2019-01-18T13:39:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/skin-cancer/</loc>
+  </url><url>
+    <loc>/tags/skin-cancer/</loc>
     <lastmod>2019-01-18T13:39:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/melanoma-detection/</loc>
+  </url><url>
+    <loc>/posts/melanoma-detection/</loc>
     <lastmod>2019-01-18T13:39:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/tensorflow/</loc>
+  </url><url>
+    <loc>/tags/tensorflow/</loc>
     <lastmod>2019-01-18T13:39:12-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/college-station/</loc>
+  </url><url>
+    <loc>/tags/college-station/</loc>
     <lastmod>2018-08-15T17:47:15-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/food/</loc>
+  </url><url>
+    <loc>/tags/food/</loc>
     <lastmod>2018-08-15T17:47:15-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/howdyweek/</loc>
+  </url><url>
+    <loc>/posts/howdyweek/</loc>
     <lastmod>2018-08-15T17:47:15-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/texas/</loc>
+  </url><url>
+    <loc>/tags/texas-am-university/</loc>
     <lastmod>2018-08-15T17:47:15-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/texas-am-university/</loc>
-    <lastmod>2018-08-15T17:47:15-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/eatingoutguidebcs/</loc>
+  </url><url>
+    <loc>/posts/eatingoutguidebcs/</loc>
     <lastmod>2018-06-10T17:07:37-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/big-bend/</loc>
+  </url><url>
+    <loc>/tags/big-bend/</loc>
     <lastmod>2018-01-01T19:18:04-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/year-in-pics-2017/</loc>
+  </url><url>
+    <loc>/tags/texas/</loc>
     <lastmod>2018-01-01T19:18:04-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/atheism/</loc>
+  </url><url>
+    <loc>/posts/year-in-pics-2017/</loc>
+    <lastmod>2018-01-01T19:18:04-06:00</lastmod>
+  </url><url>
+    <loc>/tags/atheism/</loc>
     <lastmod>2017-11-04T22:12:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/posts/atheism/</loc>
+  </url><url>
+    <loc>/posts/atheism/</loc>
     <lastmod>2017-11-04T22:12:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/tags/religion/</loc>
+  </url><url>
+    <loc>/tags/religion/</loc>
     <lastmod>2017-11-04T22:12:16-05:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
   </url>
-  
-  <url>
-    <loc>https://dwarkanath.com/blog/categories/</loc>
-  </url>
-  
 </urlset>

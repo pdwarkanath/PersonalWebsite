@@ -2,115 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dwarkanath Prabhu on Blog | Dwarkanath Prabhu</title>
-    <link>https://dwarkanath.com/blog/authors/dwarkanath-prabhu/</link>
+    <link>/authors/dwarkanath-prabhu/</link>
     <description>Recent content in Dwarkanath Prabhu on Blog | Dwarkanath Prabhu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Wed, 17 Mar 2021 01:12:12 -0600</lastBuildDate>
-    
-	<atom:link href="https://dwarkanath.com/blog/authors/dwarkanath-prabhu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/authors/dwarkanath-prabhu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Built a Twitter Bot using Python and AWS Lambda</title>
-      <link>https://dwarkanath.com/blog/posts/twitter-bot-tutorial/</link>
+      <link>/posts/twitter-bot-tutorial/</link>
       <pubDate>Wed, 17 Mar 2021 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/twitter-bot-tutorial/</guid>
-      <description>Last year I built a (very silly) Twitter bot to track the name changes of Nahim (@nah_im_abdulla). I hosted it locally for the best part of the year but decided to move it to the cloud for reliability. If my computer stops working, the bot goes down but that is less likely with AWS.
-Create a Twitter account and app First, I signed up for Twitter using the username NahimName for the bot.</description>
+      <guid>/posts/twitter-bot-tutorial/</guid>
+      <description>Last year I built a (very silly) Twitter bot to track the name changes of Nahim (@nah_im_abdulla). I hosted it locally for the best part of the year but decided to move it to the cloud for reliability. If my computer stops working, the bot goes down but that is less likely with AWS.&#xA;Create a Twitter account and app First, I signed up for Twitter using the username NahimName for the bot.</description>
     </item>
-    
     <item>
       <title>9 Ways to Stop Being Happy</title>
-      <link>https://dwarkanath.com/blog/posts/end-happiness/</link>
-      <pubDate>Wed, 08 Apr 2020 04:41:46 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/end-happiness/</guid>
-      <description>Are you feeling too happy? Here are some surefire ways to destroy that feeling.
-1. Text your crush Doesn&amp;rsquo;t matter whether they reply immediately, reply late or don&amp;rsquo;t reply at all. It&amp;rsquo;s never what you want. Goodbye happiness. Hello uncertainty, anxiety, insecurity and all those other wonderful feelings.
-2. Take everything personally If someone says &amp;ldquo;I don&amp;rsquo;t like bananas&amp;rdquo; but you like bananas, interpret it as &amp;ldquo;Anyone who likes bananas is stupid&amp;rdquo; and get personally offended.</description>
+      <link>/posts/end-happiness/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/posts/end-happiness/</guid>
+      <description>Are you feeling too happy? Here are some surefire ways to destroy that feeling.&#xA;1. Text your crush Doesn&amp;rsquo;t matter whether they reply immediately, reply late or don&amp;rsquo;t reply at all. It&amp;rsquo;s never what you want. Goodbye happiness. Hello uncertainty, anxiety, insecurity and all those other wonderful feelings.&#xA;2. Take everything personally If someone says &amp;ldquo;I don&amp;rsquo;t like bananas&amp;rdquo; but you like bananas, interpret it as &amp;ldquo;Anyone who likes bananas is stupid&amp;rdquo; and get personally offended.</description>
     </item>
-    
     <item>
       <title>What&#39;s In A Name?</title>
-      <link>https://dwarkanath.com/blog/posts/whats-in-a-name/</link>
-      <pubDate>Sun, 29 Dec 2019 17:48:34 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/whats-in-a-name/</guid>
-      <description>What&amp;rsquo;s in a name? Apparently a lot if you&amp;rsquo;re applying for jobs.
-Background A few months ago when I was applying for jobs, I found myself scratching my head as to why I couldn&amp;rsquo;t get interviews for positions I was clearly qualified for. While I was networking and meeting people, someone told me it might be my name that recruiters found difficult.
-I can&amp;rsquo;t blame them. Dwarkanath doesn&amp;rsquo;t just roll off the tongue.</description>
+      <link>/posts/whats-in-a-name/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/posts/whats-in-a-name/</guid>
+      <description>What&amp;rsquo;s in a name? Apparently a lot if you&amp;rsquo;re applying for jobs.&#xA;Background A few months ago when I was applying for jobs, I found myself scratching my head as to why I couldn&amp;rsquo;t get interviews for positions I was clearly qualified for. While I was networking and meeting people, someone told me it might be my name that recruiters found difficult.&#xA;I can&amp;rsquo;t blame them. Dwarkanath doesn&amp;rsquo;t just roll off the tongue.</description>
     </item>
-    
     <item>
       <title>Portfolio</title>
-      <link>https://dwarkanath.com/blog/posts/portfolio/</link>
+      <link>/posts/portfolio/</link>
       <pubDate>Wed, 06 Feb 2019 01:12:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/portfolio/</guid>
-      <description>Hi! I&amp;rsquo;m Dwarkanath Prabhu. I work on machine learning and web development. Here are some of my projects sorted by topic.
-Index  Computer Vision Natural Language Processing Neural Networks Classical Machine Learning Web Development Certifications  Computer Vision Skin Cancer Classification  Description: Classified images of skin lesions into different types of skin cancer using a ResNet50 architecture pretrained on ImageNet with a precision of 87.5% Language: Python (Jupyter Notebook) Libraries: TensorFlow, numpy, matplotlib Code: GitHub Repo  Handwritten Digit Recognition  Description: Identified the number (0-9) from images of handwritten digits as provided by the MNIST dataset with 99.</description>
+      <guid>/posts/portfolio/</guid>
+      <description>Hi! I&amp;rsquo;m Dwarkanath Prabhu. I work on machine learning and web development. Here are some of my projects sorted by topic.&#xA;Index Computer Vision Natural Language Processing Neural Networks Classical Machine Learning Web Development Certifications Computer Vision Skin Cancer Classification Description: Classified images of skin lesions into different types of skin cancer using a ResNet50 architecture pretrained on ImageNet with a precision of 87.5% Language: Python (Jupyter Notebook) Libraries: TensorFlow, numpy, matplotlib Code: GitHub Repo Handwritten Digit Recognition Description: Identified the number (0-9) from images of handwritten digits as provided by the MNIST dataset with 99.</description>
     </item>
-    
     <item>
       <title>Skin Cancer Classification Using Deep Learning</title>
-      <link>https://dwarkanath.com/blog/posts/melanoma-detection/</link>
+      <link>/posts/melanoma-detection/</link>
       <pubDate>Fri, 18 Jan 2019 13:39:12 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/melanoma-detection/</guid>
-      <description>Summary Recently, I worked on a project with Dr. Qian to classify images of skin lesions into the type of skin cancer they exhibited. The data was provided by the International Skin Imaging Collaboration (ISIC) from the HAM10000 dataset. The ISIC Challenge 2018 consisted of 3 tasks. This post is aimed at tackling Task 3 - Disease Classification from images of skin lesions.
-I assume if you&amp;rsquo;re reading this, you know what a Convolutional Neural Network (CNN) is.</description>
+      <guid>/posts/melanoma-detection/</guid>
+      <description>Summary Recently, I worked on a project with Dr. Qian to classify images of skin lesions into the type of skin cancer they exhibited. The data was provided by the International Skin Imaging Collaboration (ISIC) from the HAM10000 dataset. The ISIC Challenge 2018 consisted of 3 tasks. This post is aimed at tackling Task 3 - Disease Classification from images of skin lesions.&#xA;I assume if you&amp;rsquo;re reading this, you know what a Convolutional Neural Network (CNN) is.</description>
     </item>
-    
     <item>
       <title>Howdy Week 2018</title>
-      <link>https://dwarkanath.com/blog/posts/howdyweek/</link>
+      <link>/posts/howdyweek/</link>
       <pubDate>Wed, 15 Aug 2018 17:47:15 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/howdyweek/</guid>
-      <description>Howdy Week (previously known as Gig &amp;lsquo;Em week) kicks off this Sunday, August 19th. Since the only reason people go to Howdy Week is the free food, I went through the program and made a list of events that offer free food throughout the week.
-   Event Name Date Time Location     Pizza Party Aug 19 06:00 pm Academic Plaza   Lights Out Aug 20 12:00 pm MSC 2401   Backyard Bash Aug 20 04:00 pm Rec Center   Howdy Cookout Aug 20 06:00 pm Academic Plaza   Howdy Hour Aug 21 12:12 pm MSC   Aggiefest Aug 21 03:00 pm Simpson Drill Field   Yell Practice Aug 21 05:30 pm Alumni Center   VIP Shopping Aug 21 07:00 pm Barnes &amp;amp; Noble @ MSC   Vision Lunch Aug 22 12:30 pm Aggie BSM   Study Abroad 360 Aug 22 01:00 pm Rudder Exhibit Hall   Libraries Open House Aug 22 01:00 pm Evans Library   Baptist Church Dinner Aug 22 05:00 pm Aggie BSM   Party on the Plaza Aug 22 08:00 pm Rudder Plaza   StuAct Block Party Aug 23 11:30 am Koldus   Rec-a-palooza Aug 23 06:30 pm Rec Center   Welcome Back BBQ Aug 23 06:30 pm A&amp;amp;M United Methodist Church   White Creek Open House Aug 24 11:00 am Student Services @ White Creek     You can find the full schedule of events here: https://studentlife.</description>
+      <guid>/posts/howdyweek/</guid>
+      <description>Howdy Week (previously known as Gig &amp;lsquo;Em week) kicks off this Sunday, August 19th. Since the only reason people go to Howdy Week is the free food, I went through the program and made a list of events that offer free food throughout the week.&#xA;Event Name Date Time Location Pizza Party Aug 19 06:00 pm Academic Plaza Lights Out Aug 20 12:00 pm MSC 2401 Backyard Bash Aug 20 04:00 pm Rec Center Howdy Cookout Aug 20 06:00 pm Academic Plaza Howdy Hour Aug 21 12:12 pm MSC Aggiefest Aug 21 03:00 pm Simpson Drill Field Yell Practice Aug 21 05:30 pm Alumni Center VIP Shopping Aug 21 07:00 pm Barnes &amp;amp; Noble @ MSC Vision Lunch Aug 22 12:30 pm Aggie BSM Study Abroad 360 Aug 22 01:00 pm Rudder Exhibit Hall Libraries Open House Aug 22 01:00 pm Evans Library Baptist Church Dinner Aug 22 05:00 pm Aggie BSM Party on the Plaza Aug 22 08:00 pm Rudder Plaza StuAct Block Party Aug 23 11:30 am Koldus Rec-a-palooza Aug 23 06:30 pm Rec Center Welcome Back BBQ Aug 23 06:30 pm A&amp;amp;M United Methodist Church White Creek Open House Aug 24 11:00 am Student Services @ White Creek You can find the full schedule of events here: https://studentlife.</description>
     </item>
-    
     <item>
       <title>Guide to Eating Out on a budget in Bryan / College Station</title>
-      <link>https://dwarkanath.com/blog/posts/eatingoutguidebcs/</link>
+      <link>/posts/eatingoutguidebcs/</link>
       <pubDate>Sun, 10 Jun 2018 17:07:37 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/eatingoutguidebcs/</guid>
-      <description>Howdy!
-Those who know me, probably know that I run this small WhatsApp group (approx. 200 members) where I and other members share events or offers for free food on or near campus.
-As poor college students, eating out can be a strain on the budget. At the same time, finding a good deal is a bit of work, usually not worth the effort. So in the last 2 years, I did all the work for you and compiled a list of offers, events and methods to get your grub on without hurting your wallet.</description>
+      <guid>/posts/eatingoutguidebcs/</guid>
+      <description>Howdy!&#xA;Those who know me, probably know that I run this small WhatsApp group (approx. 200 members) where I and other members share events or offers for free food on or near campus.&#xA;As poor college students, eating out can be a strain on the budget. At the same time, finding a good deal is a bit of work, usually not worth the effort. So in the last 2 years, I did all the work for you and compiled a list of offers, events and methods to get your grub on without hurting your wallet.</description>
     </item>
-    
     <item>
       <title>Year in Pics 2017</title>
-      <link>https://dwarkanath.com/blog/posts/year-in-pics-2017/</link>
+      <link>/posts/year-in-pics-2017/</link>
       <pubDate>Mon, 01 Jan 2018 19:18:04 -0600</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/year-in-pics-2017/</guid>
-      <description>I could write about the year but it would just be tl;dr. So here&amp;rsquo;s a few of my favorite pics from 2017.
-January Audobon Zoo, New Orleans. What&amp;rsquo;s up, gorilla!
-WWE Royal Rumble Live! in San Antonio.
-March Spring Break in parks in the Bryan-College Station area.
-Hensel Park
-Stephen C. Beachy Central Park
-Bee Creek Park
-April For the Sikh festival of Baisakhi, the Texas A&amp;amp;M Sikh Association organized the &amp;ldquo;Tie a turban&amp;rdquo; event.</description>
+      <guid>/posts/year-in-pics-2017/</guid>
+      <description>I could write about the year but it would just be tl;dr. So here&amp;rsquo;s a few of my favorite pics from 2017.&#xA;January Audobon Zoo, New Orleans. What&amp;rsquo;s up, gorilla!&#xA;WWE Royal Rumble Live! in San Antonio.&#xA;March Spring Break in parks in the Bryan-College Station area.&#xA;Hensel Park&#xA;Stephen C. Beachy Central Park&#xA;Bee Creek Park&#xA;April For the Sikh festival of Baisakhi, the Texas A&amp;amp;M Sikh Association organized the &amp;ldquo;Tie a turban&amp;rdquo; event.</description>
     </item>
-    
     <item>
       <title>Atheism</title>
-      <link>https://dwarkanath.com/blog/posts/atheism/</link>
+      <link>/posts/atheism/</link>
       <pubDate>Sat, 04 Nov 2017 22:12:16 -0500</pubDate>
-      
-      <guid>https://dwarkanath.com/blog/posts/atheism/</guid>
-      <description>A common joke goes like this:
-Question: How do you know that someone is an atheist?
-Answer: They&amp;rsquo;ll tell you
-I don&amp;rsquo;t know where this stereotype comes from but so far I&amp;rsquo;ve been approached by people asking me if I wanted to talk about Jesus but no one has told me they&amp;rsquo;re an atheist. This is classic projection.
-I&amp;rsquo;m going to stick to the stereotype though and proclaim that I am an atheist.</description>
+      <guid>/posts/atheism/</guid>
+      <description>A common joke goes like this:&#xA;Question: How do you know that someone is an atheist?&#xA;Answer: They&amp;rsquo;ll tell you&#xA;I don&amp;rsquo;t know where this stereotype comes from but so far I&amp;rsquo;ve been approached by people asking me if I wanted to talk about Jesus but no one has told me they&amp;rsquo;re an atheist. This is classic projection.&#xA;I&amp;rsquo;m going to stick to the stereotype though and proclaim that I am an atheist.</description>
     </item>
-    
   </channel>
 </rss>

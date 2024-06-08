@@ -5,244 +5,200 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <meta name="generator" content="Hugo 0.67.0" />
+  <meta name="generator" content="Hugo 0.127.0">
 
   
   <meta name="description" content="My random thoughts in blog form...">
   
 
   
-  <link rel="apple-touch-icon" sizes="180x180" href="https://dwarkanath.com/blog/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
 
   
-  <link rel="icon" type="image/png" sizes="32x32" href="https://dwarkanath.com/blog/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
 
   
-  <link rel="icon" type="image/png" sizes="16x16" href="https://dwarkanath.com/blog/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
 
   
-  <link rel="manifest" href="https://dwarkanath.com/blog/site.webmanifest">
+  <link rel="manifest" href="../../site.webmanifest">
 
   
-  <link rel="mask-icon" href="https://dwarkanath.com/blog/safari-pinned-tab.svg" color="">
+  <link rel="mask-icon" href="../../safari-pinned-tab.svg" color="">
 
   <meta name="msapplication-TileColor" content="">
 
   <meta name="theme-color" content="">
 
   
+  <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+
   
   <title>Python | Blog | Dwarkanath Prabhu</title>
   
 
-  
-<link rel="stylesheet" href="../../css/bootstrap.min.css" />
-
-<link rel="stylesheet" href="../../css/mathjax-style.css" />
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 <style>
-body {
-  min-width: 300px;
-}
-
-.custom-navbar {
-  margin-bottom: 1em;
-  height: 60px;
-}
-
-.custom-navbar a {
-  display: inline-block; 
-  padding: 18px 0;
-  margin-right: 1em; 
-  font-weight: bold; 
-}
-
-.custom-navbar a:hover,
-.custom-navbar a:focus {
-  text-decoration: none; 
-}
-
-@media print {
-  .custom-navbar {
-    display: none;
-  }
-}
-
-article {
-  padding-bottom: 1em;
-}
-
-img {
-  max-width: 100%;
-}
-
-
-body {
-  background-color: #fff;
-}
-
-
-
-body {
-  color: #212529;
-}
-
-
-
-a {
-  color: #007bff;
-}
-
-
-
-a:hover,
-a:focus {
-  color: #0056b3;
-}
-
-
-
-.custom-navbar {
-  background-color: #212529;
-}
-
-
-
-.custom-navbar a {
-  color: rgba(255,255,255,.75);
-}
-
-
-
-.custom-navbar a:hover,
-.custom-navbar a:focus {
-  color: rgba(255,255,255,1);
-}
-
-
-
-.container {
-  max-width: 800px;
-}
-
-
-
-
-
-
-td {
-  border: 1px solid #ccc;
-  padding: 0.2rem;
-}
-
-th {
-  border: 1px solid #ccc;
-  padding: 0.2rem;
-  text-align: center;
-}
-
-table {
-  margin: 1em;
-}
- #author-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
- }
- @media (max-width: 600px) {
- #author-card {
-  flex-wrap: wrap;
-  align-content: flex-start;
- }
-}
- #author-photo {
-  max-width:200px;
-  margin: 20px;
-  }
-.share-card {
-    margin-bottom: 40px;
-}
-.share-card a {
-    display: inline-block;
-    padding: 10px 20px;
-    border-bottom: none;
-    word-spacing: 10px;
-}
-.share-card a:hover {
-  text-decoration: none;
-}
-.share-card a:first-child {
-    margin-right: 20px;
-}
-.share-card a i {
-    color: #fff;
-}
-.share-card a.twitter {
-    background-color: #38A1F3;
-    color: #fff;
-}
-.share-card a.facebook {
-    background-color: #3b5998;
-    color: #fff;
-}
-
-</style>
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-  MathJax.Hub.Queue(function() {
-    
-    
-    
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
+    body {
+      min-width: 300px;
     }
-});
-MathJax.Hub.Config({
-  
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-  });
-
-</script>
-
-
-  <meta property="og:title" content="Python" />
-<meta property="og:description" content="My random thoughts in blog form..." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://dwarkanath.com/blog/tags/python/" />
-<meta property="og:image" content="https://dwarkanath.com/blog/img/0101AudobonGorilla.jpg"/>
-<meta property="og:updated_time" content="2021-03-17T01:12:12-06:00" />
-
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://dwarkanath.com/blog/img/0101AudobonGorilla.jpg"/>
-
-<meta name="twitter:title" content="Python"/>
-<meta name="twitter:description" content="My random thoughts in blog form..."/>
-
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-101288487-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
+    
+    .custom-navbar {
+      margin-bottom: 1em;
+      height: 60px;
+    }
+    
+    .custom-navbar a {
+      display: inline-block; 
+      padding: 18px 0;
+      margin-right: 1em; 
+      font-weight: bold; 
+    }
+    
+    .custom-navbar a:hover,
+    .custom-navbar a:focus {
+      text-decoration: none; 
+    }
+    
+    @media print {
+      .custom-navbar {
+        display: none;
+      }
+    }
+    
+    article {
+      padding-bottom: 1em;
+    }
+    
+    img {
+      max-width: 100%;
+    }
+    
+    
+    body {
+      background-color: #fff;
+    }
+    
+    
+    
+    body {
+      color: #212529;
+    }
+    
+    
+    
+    a {
+      color: #007bff;
+    }
+    
+    
+    
+    a:hover,
+    a:focus {
+      color: #0056b3;
+    }
+    
+    
+    
+    .custom-navbar {
+      background-color: #212529;
+    }
+    
+    
+    
+    .custom-navbar a {
+      color: rgba(255,255,255,.75);
+    }
+    
+    
+    
+    .custom-navbar a:hover,
+    .custom-navbar a:focus {
+      color: rgba(255,255,255,1);
+    }
+    
+    
+    
+    .container {
+      max-width: 800px;
+    }
+    
+    
+    
+    pre {
+      display: block;
+      padding: 9.5px;
+      word-break: break-all;
+      word-wrap: break-word;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    pre code {
+      padding: 0;
+      font-size: inherit;
+      color: inherit; 
+      white-space: pre-wrap;
+      background-color: transparent;
+      border: none;
+      border-radius: 0;
+    }
+    
+    code {
+      padding: 2px 4px;
+      color: inherit; 
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: .9em;
+    }
+    
+    
+    
+    #author-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    @media (max-width: 600px) {
+    #author-card {
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    }
+    #author-photo {
+        max-width:200px;
+        margin: 20px;
+    }
+    .share-card {
+        margin-bottom: 40px;
+    }
+    .share-card a {
+        display: inline-block;
+        padding: 10px 20px;
+        border-bottom: none;
+        word-spacing: 10px;
+    }
+    .share-card a:hover {
+        text-decoration: none;
+    }
+    .share-card a:first-child {
+        margin-right: 20px;
+    }
+    .share-card a i {
+        color: #fff;
+    }
+    .share-card a.twitter {
+        background-color: #38A1F3;
+        color: #fff;
+    }
+    .share-card a.facebook {
+        background-color: #3b5998;
+        color: #fff;
+    }
+</style>
 </head>
 
 <body>
@@ -260,172 +216,58 @@ if (!doNotTrack) {
 
 
 
-
-
   <p>
-    <a href="https://dwarkanath.com/blog/posts/twitter-bot-tutorial/">How I Built a Twitter Bot using Python and AWS Lambda</a>
+    <a href="../../posts/twitter-bot-tutorial/">How I Built a Twitter Bot using Python and AWS Lambda</a>
     
     
     <br>
     <small class="text-secondary">March 17, 2021</small>
     
 
-<small><code><a href="https://dwarkanath.com/blog/tags/web-development">Web Development</a></code></small>
+<small><code><a href="../../tags/web-development">Web Development</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/python">Python</a></code></small>
+<small><code><a href="../../tags/python">Python</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/aws">AWS</a></code></small>
+<small><code><a href="../../tags/aws">AWS</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/lambda">Lambda</a></code></small>
+<small><code><a href="../../tags/lambda">Lambda</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/cloud">Cloud</a></code></small>
+<small><code><a href="../../tags/cloud">Cloud</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/serverless">Serverless</a></code></small>
+<small><code><a href="../../tags/serverless">Serverless</a></code></small>
 
     
   </p>
 
   <p>
-    <a href="https://dwarkanath.com/blog/posts/end-happiness/">9 Ways to Stop Being Happy</a>
-    
-    
-    <br>
-    <small class="text-secondary">April 8, 2020</small>
-    
-    
-  </p>
-
-  <p>
-    <a href="https://dwarkanath.com/blog/posts/whats-in-a-name/">What&rsquo;s In A Name?</a>
-    
-    
-    <br>
-    <small class="text-secondary">December 29, 2019</small>
-    
-    
-  </p>
-
-  <p>
-    <a href="https://dwarkanath.com/blog/posts/portfolio/">Portfolio</a>
+    <a href="../../posts/portfolio/">Portfolio</a>
     
     
     <br>
     <small class="text-secondary">February 6, 2019</small>
     
 
-<small><code><a href="https://dwarkanath.com/blog/tags/deep-learning">Deep Learning</a></code></small>
+<small><code><a href="../../tags/deep-learning">Deep Learning</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/web-development">Web Development</a></code></small>
+<small><code><a href="../../tags/web-development">Web Development</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/python">Python</a></code></small>
+<small><code><a href="../../tags/python">Python</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/flask">Flask</a></code></small>
+<small><code><a href="../../tags/flask">Flask</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/r">R</a></code></small>
+<small><code><a href="../../tags/r">R</a></code></small>
 
 
-<small><code><a href="https://dwarkanath.com/blog/tags/cloud">Cloud</a></code></small>
-
-    
-  </p>
-
-  <p>
-    <a href="https://dwarkanath.com/blog/posts/melanoma-detection/">Skin Cancer Classification Using Deep Learning</a>
-    
-    
-    <br>
-    <small class="text-secondary">January 18, 2019</small>
-    
-
-<small><code><a href="https://dwarkanath.com/blog/tags/deep-learning">Deep Learning</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/computer-vision">Computer Vision</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/skin-cancer">Skin Cancer</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/tensorflow">Tensorflow</a></code></small>
-
-    
-  </p>
-
-  <p>
-    <a href="https://dwarkanath.com/blog/posts/howdyweek/">Howdy Week 2018</a>
-    
-    
-    <br>
-    <small class="text-secondary">August 15, 2018</small>
-    
-
-<small><code><a href="https://dwarkanath.com/blog/tags/food">Food</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/texas-am-university">Texas A&amp;M University</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/college-station">College Station</a></code></small>
-
-    
-  </p>
-
-  <p>
-    <a href="https://dwarkanath.com/blog/posts/eatingoutguidebcs/">Guide to Eating Out on a budget in Bryan / College Station</a>
-    
-    
-    <br>
-    <small class="text-secondary">June 10, 2018</small>
-    
-
-<small><code><a href="https://dwarkanath.com/blog/tags/food">Food</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/college-station">College Station</a></code></small>
-
-    
-  </p>
-
-  <p>
-    <a href="https://dwarkanath.com/blog/posts/year-in-pics-2017/">Year in Pics 2017</a>
-    
-    
-    <br>
-    <small class="text-secondary">January 1, 2018</small>
-    
-
-<small><code><a href="https://dwarkanath.com/blog/tags/college-station">College Station</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/big-bend">Big Bend</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/texas">Texas</a></code></small>
-
-    
-  </p>
-
-  <p>
-    <a href="https://dwarkanath.com/blog/posts/atheism/">Atheism</a>
-    
-    
-    <br>
-    <small class="text-secondary">November 4, 2017</small>
-    
-
-<small><code><a href="https://dwarkanath.com/blog/tags/atheism">Atheism</a></code></small>
-
-
-<small><code><a href="https://dwarkanath.com/blog/tags/religion">Religion</a></code></small>
+<small><code><a href="../../tags/cloud">Cloud</a></code></small>
 
     
   </p>
