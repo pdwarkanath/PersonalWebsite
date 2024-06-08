@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skin Cancer on Blog | Dwarkanath Prabhu</title>
-    <link>https://dwarkanath.com/blog/tags/skin-cancer/</link>
+    <link>http://people.tamu.edu/~pdwarkanath/blog/tags/skin-cancer/</link>
     <description>Recent content in Skin Cancer on Blog | Dwarkanath Prabhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 18 Jan 2019 13:39:12 -0600</lastBuildDate>
     
-	<atom:link href="https://dwarkanath.com/blog/tags/skin-cancer/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://people.tamu.edu/~pdwarkanath/blog/tags/skin-cancer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Skin Cancer Classification Using Deep Learning</title>
-      <link>https://dwarkanath.com/blog/posts/melanoma-detection/</link>
+      <link>http://people.tamu.edu/~pdwarkanath/blog/posts/melanoma-detection/</link>
       <pubDate>Fri, 18 Jan 2019 13:39:12 -0600</pubDate>
       
-      <guid>https://dwarkanath.com/blog/posts/melanoma-detection/</guid>
+      <guid>http://people.tamu.edu/~pdwarkanath/blog/posts/melanoma-detection/</guid>
       <description>Summary Recently, I worked on a project with Dr. Qian to classify images of skin lesions into the type of skin cancer they exhibited. The data was provided by the International Skin Imaging Collaboration (ISIC) from the HAM10000 dataset. The ISIC Challenge 2018 consisted of 3 tasks. This post is aimed at tackling Task 3 - Disease Classification from images of skin lesions.
 I assume if you&amp;rsquo;re reading this, you know what a Convolutional Neural Network (CNN) is.</description>
     </item>
