@@ -27,10 +27,10 @@
 </head>
 <body>
 <div class="resume">
-	<header class="name bg-light p-1">
-		<h1 class="my-1">Dwarkanath Prabhu</h1>
+	<header class="margin bg-light p-1">
 	</header>
 	<div class="summary px-1 pt-3">
+		<h1 class="my-1">Dwarkanath Prabhu</h1>
 		<p>Software engineer with experience in agile software development, leadership and startups</p>
 	</div>
 	
@@ -59,6 +59,7 @@
 			<li>CSS <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4/5</li>
 			<li>ASP.NET <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i> 3.5/5</li>
 			<li>Java <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
+			<li>C++ </li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
 			<li>PHP <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
 			<li>AWS <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
 			<li>GCP <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
@@ -104,24 +105,25 @@
 				<p class="h5 my-0">Mar 2022 - Present</p>
 			</div>
 			<p class="my-0">WorkSpan is a SaaS platform for companies to build and manage joint sales partnerships</p>
-			<p class="h6 my-0">Co-Sell with Google</p>
-			<ul>
-				<li>Led the development of Co-Sell with Google enabling customers to share sales leads with Google Partner Advantage Portal (PAP)</li>
-				<li>Developed a subscription in GCP to receive leads from Google PAP pub/sub topic and share with customers</li>
-				<li>Implemented SSO login in Angular allowing customers to use their preferred identity provider for authentication</li>
-				<li>Onboarded 10 customers facilitating the sharing of over $1.5 billion worth of leads</li>
-			</ul>
 			<p class="h6 my-0">Co-Sell with AWS API</p>
 			<ul>
 				<li>Led the transformation from an S3-based data exchange system to a real-time API-based system for submitting sales leads to AWS, improving efficiency for 70 customers</li>
 				<li>Designed and implemented a secure architecture using IAM roles, STS, Lambda functions, and EventBridge, reducing data processing time from 30 minutes to 6</li>
-				<li>Managed the entire project lifecycle, ensuring a seamless migration for all customers</li>
+				<li>Integrated the new API to automatically sync customer-defined solutions to the database, enabling customers to select solutions from a dropdown when attaching them to sales leads, eliminating the need for manual entry</li>
+				<li>Built CI/CD pipeline to deploy the new AWS services using Jenkins and bash scripts</li>
+				<li>Created CloudFormation infrastructure as code template for a seamless migration for all customers</li>
+			</ul>
+			<p class="h6 my-0">Co-Sell with Google</p>
+			<ul>
+				<li>Led the development of Co-Sell with Google enabling customers to share sales leads with Google Partner Advantage Portal (PAP)</li>
+				<li>Developed a subscription in GCP to receive leads from Google PAP pub/sub topic and share with customers</li>
+				<li>Implemented OAuth 2.0 login in Angular allowing customers to use their preferred identity provider for authentication</li>
+				<li>Onboarded 10 customers facilitating the sharing of over $1.5 billion worth of leads</li>
 			</ul>
 			<p class="h6 my-0">Internal Python Automation Scripts</p>
 			<ul>
 				<li>Product configuration installations for new customers</li>
 				<li>Identify and delete duplicate objects from DataStore (GCP NoSQL database)</li>
-				<li>Make hitherto single person accessible files company wide accessible</li>
 				<li>Daily and weekly error reports from trace logs in BigQuery</li>
 				<li>Post error messages to each product's respective slack channels for customer service teams to monitor</li>
 			</ul>

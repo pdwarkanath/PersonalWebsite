@@ -2,15 +2,15 @@
 	.resume {
 		margin: auto;
 		display: grid;
-		grid-template-columns: 25% 75%;
+		grid-template-columns: 22% 78%;
 		grid-template-rows: 1.2in 1fr;
 		grid-template-areas: 
-			"name summary"
+			"margin summary"
 			"skills details";
 	}
 	
-	.name {
-		grid-area: name;
+	.margin {
+		grid-area: margin;
 	}
 	
 	.summary {
@@ -26,41 +26,39 @@
 	}
 	
 	.summary p {
-		font-size: 1.4em;
+		font-size: 1.3em;
 	}
 	
 	.contact li {
 		text-indent: 10px;
 	}
+}
+
+@media (min-width: 1300px) {
+	.resume {
+		padding: 0.3in;
 	}
+}
+
+
+@media (max-width: 870px) {  
+	h1, h2 {font-size:1.75em;} 
+}
+
+@media (min-width: 870px) { 
+	h1, h2 {font-size:2em;} 
+}
 	
-	@media (min-width: 1300px) {
-		.resume {
-			padding: 0.3in;
-		}
+
+@media (min-width: 1200px) {  
+	h1, h2 {font-size:2.5em;}     
+}
+	
+@media print {
+	html {
+		font-size: 13.5px;
 	}
-	
-	
-	@media (max-width: 870px) {  
-	  h1, h2 {font-size:1.75em;} 
+	h1, h2 {
+		font-size:2.5em;
 	}
-	
-	@media (min-width: 870px) { 
-	  h1, h2 {font-size:2em;} 
-	}
-	 
-	
-	@media (min-width: 1200px) {  
-	  h1, h2 {font-size:2.5em;}     
-	}
-	 
-	@media print {
-	  html {
-		  font-size: 13.5px;
-	  }
-	  h1, h2 {
-		  font-size:2.5em;
-	  }
-	}
-	
-	
+}
