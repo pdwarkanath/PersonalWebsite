@@ -2,19 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/algorithms/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
     <loc>/authors/</loc>
-    <lastmod>2021-03-17T01:12:12-06:00</lastmod>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/career/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/data-structures/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/databases/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/authors/dwarkanath-prabhu/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/interview/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/java/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/job/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/object-oriented-programming/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/software-engineering/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/posts/software-engineering-interview-preparation/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/system-design/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/tags/aws/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url><url>
     <loc>/tags/cloud/</loc>
-    <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url><url>
-    <loc>/authors/dwarkanath-prabhu/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
   </url><url>
     <loc>/posts/twitter-bot-tutorial/</loc>
@@ -23,16 +65,7 @@
     <loc>/tags/lambda/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url><url>
-    <loc>/tags/python/</loc>
-    <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url><url>
     <loc>/tags/serverless/</loc>
-    <lastmod>2021-03-17T01:12:12-06:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-03-17T01:12:12-06:00</lastmod>
   </url><url>
     <loc>/tags/web-development/</loc>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Design on Blog | Dwarkanath Prabhu</title>
+    <link>/tags/system-design/</link>
+    <description>Recent content in System Design on Blog | Dwarkanath Prabhu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Dec 2024 23:16:01 +0530</lastBuildDate>
+    <atom:link href="/tags/system-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Engineering Interview Preparation</title>
+      <link>/posts/software-engineering-interview-preparation/</link>
+      <pubDate>Wed, 25 Dec 2024 23:16:01 +0530</pubDate>
+      <guid>/posts/software-engineering-interview-preparation/</guid>
+      <description>While looking for software engineering jobs, I&amp;rsquo;ve gone through a lot of preparation material. Typically, technical interviews will take 3 forms -&#xA;Data Structures and Algorithms System Design Low-level Design / Object-oriented Design The links above have all my notes compiled in one place for each topic. I&amp;rsquo;m using Notion to write these notes.&#xA;A few disclaimers:&#xA;This is not complete and I will keep adding to these as I study more I have added sources wherever possible for readers to read more from Since this is manually written there are bound to be errors.</description>
+    </item>
+  </channel>
+</rss>
