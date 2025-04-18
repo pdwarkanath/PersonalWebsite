@@ -1,0 +1,8 @@
+@media print {
+	html {
+		font-size: 13.5px;
+	}
+	h1, h2 {
+		font-size:2.5em;
+	}
+}
