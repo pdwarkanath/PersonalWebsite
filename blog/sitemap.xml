@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
+  </url><url>
+    <loc>/posts/how-i-use-ai/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
+  </url><url>
     <loc>/tags/algorithms/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/authors/</loc>
-    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/tags/career/</loc>
@@ -33,9 +39,6 @@
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/tags/object-oriented-programming/</loc>
-    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/tags/python/</loc>
