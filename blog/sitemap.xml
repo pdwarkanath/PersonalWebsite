@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/artificial-intelligence/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
+  </url><url>
     <loc>/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
+  </url><url>
+    <loc>/authors/dwarkanath-prabhu/</loc>
     <lastmod>2025-05-09T22:39:33+05:30</lastmod>
   </url><url>
     <loc>/posts/how-i-use-ai/</loc>
     <lastmod>2025-05-09T22:39:33+05:30</lastmod>
   </url><url>
+    <loc>/tags/java/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
+  </url><url>
     <loc>/posts/</loc>
     <lastmod>2025-05-09T22:39:33+05:30</lastmod>
   </url><url>
-    <loc>/tags/algorithms/</loc>
-    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
+    <loc>/tags/software-engineering/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
   </url><url>
-    <loc>/authors/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2025-05-09T22:39:33+05:30</lastmod>
+  </url><url>
+    <loc>/tags/algorithms/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/tags/career/</loc>
@@ -26,13 +41,7 @@
     <loc>/tags/databases/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
-    <loc>/authors/dwarkanath-prabhu/</loc>
-    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
-  </url><url>
     <loc>/tags/interview/</loc>
-    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
-  </url><url>
-    <loc>/tags/java/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/tags/job/</loc>
@@ -44,16 +53,10 @@
     <loc>/tags/python/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
-    <loc>/tags/software-engineering/</loc>
-    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
-  </url><url>
     <loc>/posts/software-engineering-interview-preparation/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/tags/system-design/</loc>
-    <lastmod>2024-12-25T23:16:01+05:30</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-12-25T23:16:01+05:30</lastmod>
   </url><url>
     <loc>/tags/aws/</loc>
