@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startups on Blog | Dwarkanath Prabhu</title>
+    <link>/tags/startups/</link>
+    <description>Recent content in Startups on Blog | Dwarkanath Prabhu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Oct 2025 18:36:16 +0530</lastBuildDate>
+    <atom:link href="/tags/startups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAANG vs Startup</title>
+      <link>/posts/faang-vs-startup/</link>
+      <pubDate>Tue, 14 Oct 2025 18:36:16 +0530</pubDate>
+      <guid>/posts/faang-vs-startup/</guid>
+      <description>I&amp;rsquo;m a software engineer now. It took me a few years to actually call myself that but now that I&amp;rsquo;ve been around the block for over 6 years I think I can finally claim the title.&#xA;I&amp;rsquo;ve been working at Amazon (which is one of the famous FAANGs) for 6 months now. Prior to this I was working at a startup for 3 years. So I&amp;rsquo;m in a good position to write on this clickbaity title that hundreds of creators have made videos on.</description>
+    </item>
+  </channel>
+</rss>
