@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Dwarkanath Prabhu Resume</title>
-<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- CSS & JS -->	
@@ -32,11 +32,11 @@
 	</header>
 	<div class="summary px-1 pt-3">
 		<h1 class="my-1">Dwarkanath Prabhu</h1>
-		<p>Software engineer with experience in agile software development, leadership and startups</p>
+		<p>Software engineer with 7+ years of experience across startups and big tech</p>
 	</div>
 	
 	<div class="d-md-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills">
-		<h3 class="text-white">Contact & Skills</h3>
+		<h3 class="text-white">Contact &amp; Skills</h3>
 	</div>
 	<div class="collapse show skills px-1 bg-light d-md-flex flex-column" id="skills">
 		<div class="mt-0 mb-xl-5">
@@ -45,8 +45,7 @@
 			<li><i class="fa fa-globe"></i> <a href="https://dwarkanath.com">dwarkanath.com</a></li>	
 			<li><i class="fa fa-github"></i> <a href="https://github.com/pdwarkanath">pdwarkanath</a></li>
 			<li><i class="fa fa-envelope"></i> dwarkanath.prabhu@gmail.com</li>
-			<li><i class="fa fa-phone"></i>(979) 258-5215</li>
-			<li><i class="fa fa-map-marker"></i> Toronto, ON</li>
+			<li><i class="fa fa-map-marker"></i> Bengaluru, KA, IN | Toronto, ON</li>
 			Authorized to work in Canada indefinitely as a Permanent Resident
 		</ul>
 		</div>
@@ -55,14 +54,14 @@
 		<ul>
 			<li>Python <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i> 4.5/5</li>
 			<li>JavaScript <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4/5</li>
+			<li>Java <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4/5</li>
 			<li>SQL <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4/5</li>
 			<li>HTML <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4/5</li>
 			<li>CSS <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4/5</li>
+			<li>AWS <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 4/5</li>
 			<li>ASP.NET <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i> 3.5/5</li>
-			<li>Java <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
 			<li>C++ <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
 			<li>PHP <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
-			<li>AWS <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
 			<li>GCP <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 3/5</li>
 		</ul>
 		</div>
@@ -105,7 +104,25 @@
 				<p class="h5 my-0">Software Engineer II (SDE-2), <span class="text-secondary">Amazon</span></p>
 				<p class="h5 my-0">Apr 2025 - Present</p>
 			</div>
-			<p class="h6 my-0">Kindle Generative AI team</p>
+			<p class="h6 my-0">Real-time annotations sync for Kindle</p>
+			<ul class="my-0">
+				<li>Designed real-time annotation sync for Kindle end to end from high level service design to low level device code</li>
+				<li>Built the backend: Smithy API model, Coral service handlers, and a DynamoDB delta-sync table (AWS CDK); migrated the GraphQL annotations resolver to the new service</li>
+				<li>Built the device-side subscription module that delivers annotation changes to devices in real time, with reconciliation for missed updates and graceful failure handling</li>
+			</ul>
+			<p class="h6 my-0">Kindle Scribe AI – Notebook Insights (AI Q&amp;A over handwritten notes)</p>
+			<ul class="my-0">
+				<li>Built the AI chat experience in React Native with real-time streaming, chat history, and feedback, shipped on schedule across 3 UI packages</li>
+				<li>Built citations linking AI answers to source notebook pages, using turn IDs carried from device to server</li>
+				<li>Merged 3 duplicate modal components into one reusable component, cutting modal code by 67%</li>
+			</ul>
+			<p class="h6 my-0">Operational Readiness</p>
+			<ul>
+				<li>Led launch metrics and the Operational Readiness Review (ORR) for AI Q&amp;A: privacy-compliant (DSAR) device instrumentation, plus CloudWatch dashboards and ticketed alarms for 3 backend services</li>
+				<li>Unblocked production deployments for a document conversion service pipeline stalled for nearly a year by root-causing a hidden dependency on end-of-life PhantomJS and migrating it to headless Chromium on Lambda</li>
+				<li>Led a team of 2 junior engineers for test automation for 5 features: cut the test suites from ~180 to 78 tests with no loss of behavior coverage replacing all manual testing</li>
+				<li>Cut security risks (SAS) by 50+ by retiring unused version sets and upgrading vulnerable dependencies</li>
+			</ul>
 			<div class="d-flex flex-row justify-content-between">
 				<p class="h5 my-0">Software Engineer II (SDE-2), <span class="text-secondary">WorkSpan</span></p>
 				<p class="h5 my-0">Mar 2022 - Mar 2025</p>
@@ -137,7 +154,6 @@
 			<ul class="my-0">
 				<li>Resolved 100+ customer support tickets by analyzing logs and performing root cause analysis</li>
 				<li>Created a slack bot to post error messages to each product's respective channels for customer service teams to monitor</li>
-				<li>Devised a script to publish daily and weekly error reports from trace logs in BigQuery</li>				
 				<li>Prepared a runbook for resolutions to most commonly occuring errors thereby reducing incidence response time</li>
 			</ul>
 			<p class="h6 my-0">Internal Automation Scripts</p>
@@ -145,7 +161,6 @@
 				<li>Sales report schedule email service in Java using Sendgrid SDK</li>
 				<li>Product configuration installations for new customers</li>
 				<li>Identify and delete duplicate objects from DataStore (GCP NoSQL database)</li>
-				<li>Automated testing of internal APIs using cURL</li>
 			</ul>
 		
 			<div class="d-flex flex-row justify-content-between">
@@ -166,46 +181,23 @@
 			</ul>
 			<p class="h6 my-0">Paper Management System</p>
 			<ul>
-				<li>Refactored legacy PHP code into Python for efficient reviewer assignment</li>
 				<li>Led the development of the API enabling paper authors to submit copyright to IEEE</li>
 				<li>Implemented a robust full-text search functionality for papers through a PHP-based API with AJAX calls</li>
 				<li>Automated creation of post-conference proceedings using a Flask app served via nginx on Debian</li>
 			</ul>
 
 			<div class="d-flex flex-row justify-content-between">
-				<p class="h5 my-0">Research Assistant, <span class="text-secondary">Texas A&M University</span></p>
+				<p class="h5 my-0">Research Assistant, <span class="text-secondary">Texas A&amp;M University</span></p>
 				<p class="h5 my-0">Sep 2017 - Oct 2019</p>
 			</div>
-			<p class="h6 my-0">Skin Cancer Detection Using Deep Learning (Computer Vision)</p>
-			<ul class="my-0">
-				<li>Analyzed a labeled dataset of 10,000+ skin images to classify into 7 types of diseases</li>
-				<li>Achieved validation set multi-class precision of 87.5% - a 25% improvement over baseline by using ResNet50 (pretrained on ImageNet), Data Augmentation and Weighted Loss to fix class imbalance</li>
-			</ul>
-			<p class="h6 my-0">Power Generation Capacity Planning – Conference Paper (Optimization)</p>
-			<ul>
-				<li>Modeled and solved a bi-objective optimization problem using linear programming to minimize water utilization and cost for power generation in Texas with CPLEX in C++ over the next 25 years</li>
-				<li>Built an app using Shiny framework for R and GIS data to display optimal solutions on a map</li>
-			</ul>
 			<div class="d-flex flex-row justify-content-between">
 				<p class="h5 my-0">Marketing Manager, <span class="text-secondary">Aasaanjobs.com</span></p>
 				<p class="h5 my-0">Jan 2015 – Jan 2016</p>
 			</div>
 			<div class="d-flex flex-row justify-content-between">
-				<p class="h5 my-0">Strategy & Operations Analyst, <span class="text-secondary">Deloitte</span></p>
+				<p class="h5 my-0">Strategy &amp; Operations Analyst, <span class="text-secondary">Deloitte</span></p>
 				<p class="h5 my-0">Jul 2012 – Dec 2014</p>
 			</div>
-		</section>
-		<div class="d-md-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#projects" aria-expanded="false" aria-controls="projects">
-			<h3 class="text-white">Projects</h3>
-		</div>
-		<section class="collapse show border-top border-secondary" id="projects">
-            <h3 class="d-md-inline d-none">Projects</h3>
-            <ul>
-				<li><b>Home print server:</b> Installed CUPS on a Raspberry Pi, enabling successful remote printing from a mobile device</li>
-				<li><b>Payroll Processor</b>: Full stack app to upload payroll report (hours worked, pay rate) and get amount due for employees with HTMX and bootstrap frontend, Flask backend, and SQLite database</li>
-				<li><b>Student grading system</b>: Full stack app to submit grades for students with a React frontend, Node backend and MongoDB</li>
-				<li><b>JokeGPT</b>: Twitter bot to use OpenAI API to write jokes based on a given prompt</li>
-			</ul>
 		</section>
 		<div class="d-md-none my-1 py-2 bg-secondary" type="button" data-toggle="collapse" data-target="#education" aria-expanded="false" aria-controls="education">
 			<h3 class="text-white">Education</h3>
@@ -213,7 +205,7 @@
 		<section class="collapse show border-top border-secondary" id="education">	
 			<h3 class="d-md-inline d-none">Education</h3>
 			<div class="d-flex flex-row justify-content-between">
-				<p class="h5 my-0">M. Eng., Industrial Engineering, <span class="text-secondary">Texas A&M University</span></p>
+				<p class="h5 my-0">M. Eng., Industrial Engineering, <span class="text-secondary">Texas A&amp;M University</span></p>
 				<p class="h5 my-0">Dec 2018</p>
 			</div>
 			<div class="d-flex flex-row justify-content-between">
